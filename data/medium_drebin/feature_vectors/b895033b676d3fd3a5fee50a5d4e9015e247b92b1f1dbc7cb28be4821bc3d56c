@@ -1,0 +1,16 @@
+url::http://www.tideapp.com/native/androidStateList.txt
+feature::android.hardware.touchscreen
+url::www.tideapp.com
+url::http://www.tideapp.com/native/androidCountries.txt
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.tideapp.com/native/androidGetPortInfo.php?p%3D
+url::http://www.tideapp.com/native/androidGetCurrentTide.php?p%3D
+permission::android.permission.INTERNET
+activity::.TideApp
+url::http://www.tideapp.com/native/androidAd.php?l%3D
+intent::android.intent.category.LAUNCHER
+url::http://www.tideapp.com/native/androidPortsForState.php?s%3D
+url::http://www.tideapp.com/native/chart.php?p%3D
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection

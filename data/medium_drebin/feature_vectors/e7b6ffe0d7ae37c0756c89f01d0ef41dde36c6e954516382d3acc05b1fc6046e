@@ -1,0 +1,27 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+service_receiver::FaceBookPluginService
+api_call::java/net/HttpURLConnection
+url::https://api.facebook.com/restserver.php
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::graph.facebook.com
+call::getPackageInfo
+api_call::android/content/Context;->startActivity
+service_receiver::FaceBook plugin service
+url::http://developers.facebook.com/docs/reference/rest/
+service_receiver::com.sonyericsson.extras.liveview.plugins.PluginReceiver
+url::api.facebook.com
+activity::com.sonyericsson.extras.liveview.plugins.PluginPreferences
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW
+url::http://graph.facebook.com/
+activity::.FaceBookOAuth
+intent::android.intent.action.MAIN
+url::en.wikipedia.org
+url::developers.facebook.com
+real_permission::android.permission.INTERNET
+url::https://graph.facebook.com/
+intent::android.intent.category.LAUNCHER
+url::https://m.facebook.com/dialog/
+url::http://en.wikipedia.org/wiki/Hello_world_program

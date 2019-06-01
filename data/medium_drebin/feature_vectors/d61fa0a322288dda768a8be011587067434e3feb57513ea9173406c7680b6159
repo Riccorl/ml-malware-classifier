@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+real_permission::android.permission.VIBRATE
+activity::.GameActivity
+activity::.Main
+permission::android.permission.INTERNET
+url::http://www.talon-designs.net/android/crash_report.php
+feature::android.hardware.screen.portrait
+url::www.talon-designs.net
+intent::android.intent.category.LAUNCHER
+url::http://www.talon-designs.net/android/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.INTERNET
+call::HttpPost
+call::getSystemService

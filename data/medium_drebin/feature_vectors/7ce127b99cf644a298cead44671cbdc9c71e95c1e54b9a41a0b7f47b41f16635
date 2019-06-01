@@ -1,0 +1,14 @@
+activity::.UpcomingActivity
+url::calagator.org
+url::http://calagator.org/events/
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://calagator.org/events.json?date[end]%3D
+activity::.LoadingActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+activity::.EventActivity
+api_call::android/app/Activity;->setContentView
+api_call::android/app/Activity;->startActivity

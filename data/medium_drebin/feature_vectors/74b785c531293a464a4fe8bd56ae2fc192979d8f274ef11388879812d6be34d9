@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+url::http://www.dudibo.com/pad/old/index.php?from%3DAndroidGuessNumber
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::www.dudibo.com
+intent::android.intent.category.LAUNCHER
+activity::.GuessNumber
+real_permission::android.permission.INTERNET
+activity::.GameList
+url::blog.dudibo.com
+url::http://blog.dudibo.com
+url::http://www.dudibo.com/apps/GuessNumberLists/UploadScore.php?name%3D

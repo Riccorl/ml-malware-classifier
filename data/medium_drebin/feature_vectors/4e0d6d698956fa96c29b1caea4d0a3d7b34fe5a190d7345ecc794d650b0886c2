@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+activity::.Guide_Dating
+activity::.gayguide
+activity::.about
+call::printStackTrace
+activity::Contact
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+url::http://feeds.feedburner.com/http/bloggenesisprojcom?format%3Dxml
+activity::Genesis Project
+activity::.Guide_SaferSex
+activity::.Guide_STDS
+activity::.SplashScreen
+api_call::java/net/URL;->openStream
+activity::.ShowDetails
+activity::.news
+url::http://www.youtube.com/user/genesisproj
+intent::android.intent.action.MAIN
+url::www.youtube.com
+real_permission::android.permission.INTERNET
+url::feeds.feedburner.com
+intent::android.intent.category.LAUNCHER

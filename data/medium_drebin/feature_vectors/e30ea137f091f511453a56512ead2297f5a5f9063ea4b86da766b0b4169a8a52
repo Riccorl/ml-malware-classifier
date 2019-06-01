@@ -1,0 +1,42 @@
+url::http://cities.upnext.com.s3.amazonaws.com/stream/V
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+call::getDeviceId
+api_call::java/net/HttpURLConnection
+permission::android.permission.READ_PHONE_STATE
+url::www.upnext.com
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.gps
+activity::Venue Reviews
+activity::com.viro.upnext.UI.activity.UPNWebViewActivity
+url::http://localhost:8080/upnext/
+feature::android.hardware.location
+permission::android.permission.CALL_PHONE
+activity::com.viro.upnext.UI.venueinfo.UPNVenueReviewWebActivity
+api_call::android/location/LocationManager;->getLastKnownLocation
+url::http://www.fanschoice.com
+call::getSystemService
+activity::com.viro.upnext.UPNActivity
+activity::category select screen
+api_call::android/telephony/TelephonyManager;->getSubscriberId
+feature::android.hardware.telephony
+activity::Superbowl Events
+url::http://www.upnext.com/
+real_permission::android.permission.READ_PHONE_STATE
+url::localhost
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Official Super Bowl XLV Guide
+url::cities.upnext.com.s3.amazonaws.com
+feature::android.hardware.screen.portrait
+url::www.fanschoice.com
+activity::Venue Info
+intent::android.intent.category.LAUNCHER
+api_call::android/app/Activity;->startActivity
+call::getSubscriberId
+activity::.UPNActivity

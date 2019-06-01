@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.WRITE_SETTINGS
+real_permission::android.permission.INTERNET
+intent::android.intent.action.SERVICE_STATE
+api_call::android/app/Activity;->setContentView
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider
+api_call::android/provider/Settings$System;->putInt
+permission::android.permission.WRITE_SETTINGS

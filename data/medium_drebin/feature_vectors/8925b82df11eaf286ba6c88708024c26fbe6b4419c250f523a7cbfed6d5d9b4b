@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+call::sendSMS
+activity::.CoreAndroid
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+permission::android.permission.CALL_PHONE
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/telephony/gsm/SmsManager;->sendTextMessage
+api_call::android/location/LocationManager;->isProviderEnabled
+api_call::java/net/URL;->openConnection
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService

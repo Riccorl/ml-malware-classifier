@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+permission::android.permission.INTERNET
+intent::android.intent.action.MAIN
+url::services.e-prices.gr
+feature::android.hardware.screen.portrait
+activity::.EPrices
+url::http://services.e-prices.gr/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+call::getSystemService

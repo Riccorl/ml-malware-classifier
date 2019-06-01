@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::spontex.lsv.library.UpdateService
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+api_call::android/content/Context;->startService
+call::getPackageInfo
+service_receiver::.widget.WidgetLSV
+activity::.widget.ActivityParameterOverall
+provider::android.appwidget.provider
+call::getSystemService

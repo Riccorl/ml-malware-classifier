@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::com.dnsdojo.mokkouyou.lv.mode.PluginPreferences
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+service_receiver::com.dnsdojo.mokkouyou.lv.mode.sandbox.ModePluginService
+service_receiver::com.dnsdojo.mokkouyou.lv.mode.PluginReceiver
+service_receiver::Mode plugin service
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+call::getSystemService

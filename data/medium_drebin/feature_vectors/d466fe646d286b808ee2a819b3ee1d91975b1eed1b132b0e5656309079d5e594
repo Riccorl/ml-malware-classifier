@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.Hotbox
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://order.gethotboxpizza.com/
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::order.gethotboxpizza.com

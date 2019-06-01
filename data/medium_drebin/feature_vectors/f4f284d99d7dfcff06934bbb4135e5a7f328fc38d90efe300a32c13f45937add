@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.help
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT

@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+activity::.Settings
+provider::android.appwidget.provider
+call::getSystemService

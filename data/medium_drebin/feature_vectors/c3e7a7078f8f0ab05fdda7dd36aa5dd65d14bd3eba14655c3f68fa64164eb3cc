@@ -1,0 +1,21 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CAMERA
+activity::.Cam9Frame
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+feature::android.hardware.camera.autofocus
+feature::android.hardware.camera
+api_call::android/content/ContentResolver;->query
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Read/Write External Storage
+url::http://androider.jp/
+url::androider.jp
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+permission::android.permission.CAMERA
+url::http://androider.jp/?page_id%3D702
+real_permission::android.permission.READ_CONTACTS
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

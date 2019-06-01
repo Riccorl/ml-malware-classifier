@@ -1,0 +1,21 @@
+url::http://funenglish.pl/dictionary/items/format/xml/source/android
+feature::android.hardware.touchscreen
+api_call::java/net/URL;->openStream
+activity::.dictionary
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::funenglish.pl
+url::funenglish.pl\nPo
+url::deutschtests.eu
+permission::android.permission.INTERNET
+url::http://funenglish.pl/index/index/source/android
+url::http://funenglish.pl
+call::Read/Write External Storage
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+url::http://funenglish.pl\nPo
+real_permission::android.permission.INTERNET
+url::http://deutschtests.eu?source%3Dandroid
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

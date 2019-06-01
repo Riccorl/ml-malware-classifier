@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.X48
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+activity::.ProgListView

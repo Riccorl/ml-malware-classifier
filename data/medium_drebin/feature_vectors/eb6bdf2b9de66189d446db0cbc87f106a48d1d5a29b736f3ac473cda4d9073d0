@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.shapeshot.com/images/gallery/pgallery
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::HttpPost
+activity::.Main
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+url::www.shapeshot.com
+real_permission::android.permission.INTERNET
+url::http://www.shapeshot.com/scripts/android_connect_v2.php?aemail%3D
+url::http://www.shapeshot.com/assets/
+call::getSystemService

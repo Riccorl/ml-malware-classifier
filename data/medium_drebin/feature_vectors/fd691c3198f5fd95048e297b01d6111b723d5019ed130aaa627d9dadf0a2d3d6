@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+activity::.Main
+permission::android.permission.INTERNET
+url::http://kairopark.jp/j7hjT4ua//gm25/onsen_android.jar
+feature::android.hardware.screen.portrait
+url::kairopark.jp
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::net.kairosoft.android.onsen_en.Main
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

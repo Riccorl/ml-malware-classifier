@@ -1,0 +1,9 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+url::www.189works.com
+intent::android.intent.action.MAIN
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.189works.com/
+real_permission::android.permission.SET_WALLPAPER
+api_call::android/app/Activity;->setWallpaper

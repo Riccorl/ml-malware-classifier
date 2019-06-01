@@ -1,0 +1,13 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://flight-director.appspot.com/camelscore/setscore?
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://flight-director.appspot.com/camelscore/getscore?userid%3D
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::flight-director.appspot.com
+call::getSystemService

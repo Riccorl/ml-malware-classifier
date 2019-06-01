@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.DEFAULT
+activity::.TinamiActivity
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

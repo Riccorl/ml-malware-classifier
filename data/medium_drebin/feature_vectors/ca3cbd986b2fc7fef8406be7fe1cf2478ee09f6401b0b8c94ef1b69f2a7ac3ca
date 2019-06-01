@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.MainDiet
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.portrait
+call::getSystemService

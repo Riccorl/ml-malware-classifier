@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.Hekma
+intent::android.intent.action.MAIN
+url::www.CyberiaHosting.ca
+url::http://www.CyberiaHosting.ca
+intent::android.intent.category.LAUNCHER

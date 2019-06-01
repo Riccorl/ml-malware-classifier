@@ -1,0 +1,16 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.READ_PHONE_STATE
+api_call::java/lang/Runtime;->exec
+call::printStackTrace
+service_receiver::.CheckNew
+activity::.ConfigActivity
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService
+api_call::android/os/Vibrator;->cancel

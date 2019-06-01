@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+call::Obfuscation(Base64)
+activity::.MainActivity
+activity::.CompareActivity
+permission::android.permission.INTERNET
+activity::ScheduleChartActivityScheduleChartActivity
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/afma_load_ads.js
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.ScheduleTableActivity
+call::getSystemService

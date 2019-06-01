@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.livedoor
+url::www.livedoor.com
+permission::android.permission.INTERNET
+url::http://www.livedoor.com/lite/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

@@ -1,0 +1,15 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+activity::.BSMDetails
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+url::http://maps.google.com/?daddr%3D
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::maps.google.com
+activity::.BSMLocations

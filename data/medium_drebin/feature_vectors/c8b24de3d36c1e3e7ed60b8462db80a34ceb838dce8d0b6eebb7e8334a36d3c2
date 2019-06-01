@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+activity::.SelectBoxActivity
+call::getPackageInfo
+call::HttpPost
+activity::.SnapshotActivity
+activity::.Test
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+url::http://211.144.68.47/apks/qianzhi-android-snapshot.apk.version
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+url::211.144.68.47
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+service_receiver::.SnapshotService
+real_permission::android.permission.INTERNET
+url::http://211.144.68.47/apks/qianzhi-android-snapshot.apk
+intent::android.intent.category.LAUNCHER

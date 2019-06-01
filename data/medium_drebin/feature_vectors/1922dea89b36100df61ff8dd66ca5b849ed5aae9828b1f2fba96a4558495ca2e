@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+activity::.RecargaloView
+real_permission::android.permission.INTERNET
+activity::RecargaloView
+intent::android.intent.category.LAUNCHER

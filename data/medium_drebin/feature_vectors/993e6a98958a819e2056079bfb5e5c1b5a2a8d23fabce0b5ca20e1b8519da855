@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::nEx.Software.Tutorials.Widgets.FinalPulse.Info
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+service_receiver::FinalPulse Analog Clock

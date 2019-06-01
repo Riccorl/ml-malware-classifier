@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+api_call::android/telephony/TelephonyManager;->listen
+permission::android.permission.READ_PHONE_STATE
+activity::.MainActivity
+api_call::android/app/Activity;->startActivity
+activity::.Preferences
+real_permission::android.permission.VIBRATE
+service_receiver::.FlipService
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::.BootupActivator
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::getSystemService
+intent::android.intent.category.LAUNCHER

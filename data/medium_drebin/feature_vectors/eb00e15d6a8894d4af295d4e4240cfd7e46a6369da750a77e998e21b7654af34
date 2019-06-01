@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.Grinders
+intent::android.intent.action.PICK
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+intent::android.intent.action.EDIT
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::localfreeapps.com
+real_permission::android.permission.INTERNET
+intent::android.intent.action.VIEW
+url::http://localfreeapps.com/api/mobileapp.php?appid%3D17

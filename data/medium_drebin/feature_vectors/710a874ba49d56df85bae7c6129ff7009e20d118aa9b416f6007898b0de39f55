@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::android.com.ua
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.INTERNET
+service_receiver::.RssReaderService
+url::http://android.com.ua
+service_receiver::Android Ukraine News
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+api_call::android/content/Context;->sendBroadcast

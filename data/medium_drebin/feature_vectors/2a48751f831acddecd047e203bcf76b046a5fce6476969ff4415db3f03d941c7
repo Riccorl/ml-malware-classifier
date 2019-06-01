@@ -1,0 +1,12 @@
+activity::.ActivityMain
+activity::.ActivityRSSReader
+url::http://www.google.com/
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::www.google.com
+call::printStackTrace
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.ActivityRSSShowDescription
+api_call::android/webkit/WebView

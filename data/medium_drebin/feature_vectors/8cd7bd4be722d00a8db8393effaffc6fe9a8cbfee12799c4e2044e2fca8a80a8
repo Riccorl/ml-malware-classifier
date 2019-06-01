@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::http://www.lidor.net/android/callstats/
+permission::android.permission.READ_CONTACTS
+service_receiver::.ServiceReceiver
+permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.PHONE_STATE
+intent::android.intent.category.DEFAULT
+service_receiver::.StatsService
+api_call::android/content/ContentResolver;->query
+real_permission::android.permission.READ_PHONE_STATE
+activity::.StatsPreferenceActivity
+real_permission::android.permission.READ_CONTACTS
+api_call::android/telephony/TelephonyManager;->listen
+url::www.lidor.net
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

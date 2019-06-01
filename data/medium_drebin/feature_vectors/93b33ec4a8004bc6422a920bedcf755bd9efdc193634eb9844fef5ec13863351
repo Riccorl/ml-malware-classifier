@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://www.netmite.com/android/andme_signed.apk
+call::getPackageInfo
+url::www.netmite.com
+url::http://www.netmite.com/android/srv/2.0/upload/Fable2_Nokia_N73_1_0.jad
+activity::.GameAppBase
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+activity::.TalkingPhoto
+activity::.ImageOp
+activity::.Delwin
+feature::android.hardware.camera
+call::printStackTrace
+call::Read/Write External Storage
+service_receiver::.TalkingPhotoService
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+feature::android.hardware.microphone
+provider::com.stf.provider.TalkingPhoto
+permission::android.permission.RECORD_AUDIO
+call::getSystemService
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.CAMERA
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+url::https://accounts.key.com/ib2/PreController?requester%3Dmsignon&fromApp%3Dtrue
+activity::.KeyBankAndroid
+activity::.KeyOnlineBanking
+url::https://www.key.com
+url::accounts.key.com
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+url::https://www.key.com/loc/key/Mobile.do
+activity::.KeyLocator
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+intent::android.intent.action.MAIN
+url::www.key.com
+activity::.KeyContactUs

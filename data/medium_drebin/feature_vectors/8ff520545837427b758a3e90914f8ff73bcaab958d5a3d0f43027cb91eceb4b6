@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://wiesnwatch.schoar.de/WiesnWatcher/list
+url::http://wiesnwatch.schoar.de/WiesnWatcher/report?uid%3D
+activity::.OverviewActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::wiesnwatch.schoar.de
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://wiesnwatch.schoar.de/WiesnWatcher/list?uid%3D
+call::getSystemService
+url::http://wiesnwatch.schoar.de/WiesnWatcher/report

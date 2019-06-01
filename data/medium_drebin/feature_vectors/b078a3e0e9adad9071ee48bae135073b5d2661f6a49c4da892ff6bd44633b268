@@ -1,0 +1,13 @@
+activity::.LocalDeviceSample
+feature::android.hardware.touchscreen
+activity::.GPSSample
+intent::android.intent.action.MAIN
+permission::android.permission.BLUETOOTH
+activity::.BluetoothServiceSample
+feature::android.hardware.screen.portrait
+permission::android.permission.BLUETOOTH_ADMIN
+activity::.BluetoothSamples
+intent::android.intent.category.LAUNCHER
+activity::.DeviceDiscoverySample
+intent::android.intent.category.DEFAULT
+call::getSystemService

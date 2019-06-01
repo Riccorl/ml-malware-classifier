@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::com.twofortyfouram.locale.intent.action.FIRE_SETTING
+intent::com.twofortyfouram.locale.intent.action.EDIT_SETTING
+service_receiver::.LocaleFireReceiver
+call::getPackageInfo
+call::getSystemService

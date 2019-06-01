@@ -1,0 +1,14 @@
+activity::javax.mail
+feature::android.hardware.touchscreen
+activity::fourierTrial.graphics.ArcsJoin
+intent::android.intent.action.MAIN
+activity::fourierTrial.activity.FourierSeriesTheme
+activity::fourierTrial.graphics.ArcsSynthesis
+activity::fourierTrial.activity.FourierSeries
+activity::fourierTrial.activity.EditorConfig
+intent::android.intent.category.LAUNCHER
+activity::fourierTrial.graphics.ArcsFourier
+activity::fourierTrial.graphics.Arcs
+activity::.FourierSeries
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

@@ -1,0 +1,86 @@
+call::Cipher(Cipher.BROKENPBEWITHSHA1ANDDES)
+call::Cipher(pad block corrupted)
+real_permission::android.permission.GET_ACCOUNTS
+call::Cipher(Cipher.RSA/ISO9796-1)
+call::Cipher(Cipher.RC2WRAP)
+call::HttpPost
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND2-KEYTRIPLEDES-CBC)
+activity::.MainActivity
+call::Cipher(Cipher.ELGAMAL/PKCS1)
+url::www.bouncycastle.org)
+call::Cipher(Cipher.OLDPBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.OLDPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::getSystemService
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC2-CBC)
+call::Cipher(Cipher.PBEWITHSHAANDTWOFISH-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND128BITAES-CBC-BC)
+call::Cipher(Cipher.RSA/OAEP)
+call::Cipher(Cipher.RSA/PKCS1)
+call::Cipher(Cipher.PBEWITHMD5ANDDES)
+api_call::android/webkit/WebView
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND3-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+url::http://www.bouncycastle.org)
+call::Cipher(Cipher.PBEWITHSHAAND128BITRC4)
+service_receiver::OnBootCompletedReceiver
+permission::android.permission.INTERNET
+call::Cipher(malformed signature)
+call::Cipher(Cipher.PBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.RSA/2)
+call::Cipher(block truncated)
+api_call::android/content/Context;->startActivity
+call::Cipher(Cipher.BROKENPBEWITHMD5ANDDES)
+call::Cipher(Cipher.RSA)
+call::Cipher(Cipher.BROKENPBEWITHSHAAND2-KEYTRIPLEDES-CBC)
+call::Cipher(Cipher.PBEWITHSHA1ANDDES)
+real_permission::android.permission.BLUETOOTH
+call::Cipher(Cipher.ECIES)
+call::Cipher(mac check in EAX failed)
+service_receiver::ReminderReceiver
+call::Cipher(input too short)
+call::Cipher(Cipher.DES)
+call::Cipher(Cipher.IES)
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+call::Cipher(data too short)
+activity::AlarmDialogActivity
+intent::android.intent.action.MAIN
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC4)
+call::Cipher(Cipher.PBEWITHMD5ANDRC2)
+call::Cipher(BlockLength too large for simple addition.\n)
+api_call::android/bluetooth/BluetoothAdapter;->getBondedDevices
+call::Cipher(Cipher.BROKENPBEWITHSHAAND3-KEYTRIPLEDES-CBC)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC2-CBC)
+call::Cipher(AES)
+call::Cipher(Camellia)
+real_permission::android.permission.BLUETOOTH_ADMIN
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC4)
+call::Cipher(Blowfish)
+feature::android.hardware.screen.portrait
+call::Cipher(Mac codes failed to equal.)
+call::Cipher(Cipher.RSA/1)
+feature::android.hardware.touchscreen
+call::Cipher(Cipher.PBEWITHSHAAND40BITRC2-CBC)
+call::Cipher(invalid forcing byte in block)
+call::Cipher(Cipher.BrokenIES)
+intent::android.intent.action.BOOT_COMPLETED
+activity::MainActivity
+api_call::android/bluetooth/BluetoothAdapter;->cancelDiscovery
+real_permission::android.permission.VIBRATE
+permission::android.permission.VIBRATE
+call::Cipher(Cipher.PBEWITHSHA1ANDRC2)
+api_call::android/accounts/AccountManager;->addOnAccountsUpdatedListener
+call::Obfuscation(Base64)
+call::Cipher(Cipher.GOST28147)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND40BITRC2-CBC)
+call::Cipher(mac check in CCM failed)
+call::Cipher(Alg.Alias.Cipher.PBEWITHSHA1AND128BITRC4)
+call::Cipher(Cipher.ELGAMAL)
+call::Cipher(unwrap data must be a multiple of 8 bytes)
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.INTERNET
+call::Cipher(Cipher.RC2)
+call::Cipher(Null pointer as ciphertext)
+call::Cipher(Cipher.1.2.840.113549.3.2)
+call::Cipher(Cipher.BrokenECIES)

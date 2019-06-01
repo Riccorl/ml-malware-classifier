@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+activity::.FlashCards
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER

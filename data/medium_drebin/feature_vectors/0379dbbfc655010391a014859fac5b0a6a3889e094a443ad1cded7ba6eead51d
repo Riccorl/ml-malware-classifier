@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.meteochile.cl/js/
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::www.meteochile.cl
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::Regiones
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.meteochile.cl/iconosmeteo/
+activity::.Regiones

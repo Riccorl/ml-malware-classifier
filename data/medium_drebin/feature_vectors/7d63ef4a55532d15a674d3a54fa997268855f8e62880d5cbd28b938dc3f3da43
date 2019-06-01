@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+intent::android.intent.action.MAIN
+url::antikamata.hkhumanoid.info
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::transit.map.yahoo.co.jp
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://antikamata.hkhumanoid.info/
+url::http://transit.map.yahoo.co.jp/search/result?
+call::getSystemService

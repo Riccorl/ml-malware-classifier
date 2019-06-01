@@ -1,0 +1,23 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+call::getDeviceId
+url::https://webservice.smartass-shopping.dev/staticXml/List.xml
+api_call::android/telephony/TelephonyManager;->getDeviceId
+activity::.SmartAss
+api_call::android/os/Vibrator;->vibrate
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.ACCESS_WIFI_STATE
+url::https://webservice.smartass-shopping.dev/staticXml/Item.xml
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::http://xmlpull.org/v1/doc/features.html
+permission::android.permission.VIBRATE
+url::webservice.smartass-shopping.dev
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.MAIN
+url::xmlpull.org
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::SmartAss

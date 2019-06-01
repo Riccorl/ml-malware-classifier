@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+call::getSystemService
+activity::.Bible_and_Concordance
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER

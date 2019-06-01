@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::www.axxessio.com
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.Splash
+url::http://www.axxessio.com
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

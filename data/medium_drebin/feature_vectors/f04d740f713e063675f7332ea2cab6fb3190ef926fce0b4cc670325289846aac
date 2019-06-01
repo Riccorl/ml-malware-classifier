@@ -1,0 +1,9 @@
+activity::.navynews
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://bighits.net/navynews/index.php
+intent::android.intent.category.LAUNCHER
+url::bighits.net
+api_call::android/webkit/WebView

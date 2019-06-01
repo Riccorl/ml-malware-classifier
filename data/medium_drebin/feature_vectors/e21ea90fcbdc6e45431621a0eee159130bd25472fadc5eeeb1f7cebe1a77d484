@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+url::http://doandroid.com/
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::PostResults
+intent::android.intent.category.LAUNCHER
+url::http://doandroid.com/scores/post_score
+url::doandroid.com
+real_permission::android.permission.INTERNET
+call::HttpPost
+activity::.ClackBoard

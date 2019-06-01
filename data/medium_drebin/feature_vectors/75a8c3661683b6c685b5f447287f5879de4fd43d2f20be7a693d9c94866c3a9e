@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+url::www.facebook.com
+activity::.PaperPlaneX
+url::market.android.com
+intent::android.intent.action.MAIN
+url::http://market.android.com/search?q%3D\
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+real_permission::android.permission.INTERNET
+api_call::android/os/PowerManager$WakeLock;->acquire
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+url::http://www.facebook.com/pages/Wavecade/224748420874967
+call::HttpPost
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

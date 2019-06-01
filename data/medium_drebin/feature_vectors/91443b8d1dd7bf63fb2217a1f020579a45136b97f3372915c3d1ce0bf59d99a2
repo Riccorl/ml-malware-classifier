@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+activity::.RestoreDataActivity
+activity::.BackupDataActivity
+activity::.MySword
+api_call::java/net/HttpURLConnection
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.BookmarkActivity
+activity::Preferences
+activity::.SearchActivity
+call::getSystemService
+activity::.AboutActivity
+activity::SelectColorThemeActivity
+activity::.AboutModuleActivity
+activity::.SelectWordActivity
+activity::.ArrangeButtonsActivity
+activity::.DownloadModulesActivity
+activity::.SelectModulesPathActivity
+activity::.SelectHighlightActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.SelectVerseActivity
+activity::ArrangeCompareActivity
+activity::PreviewActivity
+intent::android.intent.category.LAUNCHER

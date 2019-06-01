@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::getSystemService
+activity::.chronof3f
+activity::.ResultatsActivity
+activity::.PilotesActivity
+activity::.ChronosActivity
+intent::android.intent.category.LAUNCHER
+feature::android.hardware.screen.portrait
+intent::android.intent.action.MEDIA_BUTTON
+activity::.configuration

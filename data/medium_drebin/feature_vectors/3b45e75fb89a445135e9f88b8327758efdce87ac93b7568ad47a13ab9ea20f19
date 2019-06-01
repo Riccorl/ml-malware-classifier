@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+activity::.GroupGridView
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+activity::.ArticleListView
+activity::.ServerOptionsView
+api_call::java/lang/Runtime;->exec
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+activity::.GroupGalleryView
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+service_receiver::.DownloadService
+activity::.MainView
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+api_call::java/net/Socket
+call::printStackTrace
+call::getSystemService

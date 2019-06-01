@@ -1,0 +1,76 @@
+feature::android.hardware.touchscreen
+activity::com.clockweatherpro.Locationselect
+url::http://maps.googleapis.com/maps/api/geocode/xml?latlng%3D
+permission::android.permission.RECEIVE_BOOT_COMPLETED
+url::http://www.google.com/ig/api?weather%3D
+url::http://weatherservicesxml.joky.info/logthemeupdate.php?heslo%3Ddeges&themename%3D
+service_receiver::WS Weather
+url::http://weatherservicesxml.joky.info/extraservices.php?heslo%3DA5E8D6GA
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::a5451917574.api.wxbug.net
+real_permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://a5451917574.api.wxbug.net/getStationsXML.aspx?ACode%3DA5451917574&cityCode%3D
+url::10.0.2.2
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+service_receiver::WS Small
+service_receiver::WS Flip Clock
+call::HttpPost
+url::http://a5451917574.api.wxbug.net/getStationsXML.aspx?ACode%3DA5451917574&zipCode%3D
+activity::com.clockweatherpro.weatherdetails
+real_permission::android.permission.READ_PHONE_STATE
+activity::com.clockweatherpro.Locations
+url::http://10.0.2.2/cfc/iphoneWebservice.cfc?returnformat%3Djson&amp%3Bmethod%3DtestUpload
+activity::com.clockweatherpro.charts
+url::www.google.com
+url::maps.googleapis.com
+permission::android.permission.ACCESS_COARSE_LOCATION
+activity::com.clockweatherpro.fileselect
+activity::com.clockweatherpro.uploadtheme
+url::http://weatherservicesxml.joky.info/loglocationupdate.php?heslo%3Ddeges&locations%3D
+feature::android.hardware.location
+api_call::android/telephony/TelephonyManager;->getDeviceId
+api_call::android/app/NotificationManager;->notify
+real_permission::android.permission.VIBRATE
+permission::android.permission.READ_PHONE_STATE
+activity::com.clockweatherpro.themes
+call::Obfuscation(Base64)
+call::getSystemService
+service_receiver::WS Forecast
+call::Read/Write External Storage
+api_call::android/location/LocationManager;->getLastKnownLocation
+api_call::android/content/Context;->startService
+activity::com.clockweatherpro.about
+url::http://a5451917574.api.wxbug.net/getForecastRSS.aspx?ACode%3DA5451917574&cityCode%3D
+permission::com.android.vending.CHECK_LICENSE
+call::Cipher(AES)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://weatherservicesxml.joky.info/search.php?LIMIT%3D50&searchstring%3D
+url::http://weatherservicesxml.joky.info/extraservices.php?heslo%3Ddeges&
+call::getDeviceId
+permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+activity::.ClockWeatherActivity
+url::http://weatherservicesxml.joky.info/getweatherthemes.php?heslo%3Ddeges&LIMIT%3D96
+activity::com.clockweatherpro.preferences
+service_receiver::.WeatherService
+service_receiver::.bootreceiver
+api_call::java/net/URL;->getContent
+url::http://a5451917574.api.wxbug.net/getForecastRSS.aspx?ACode%3DA5451917574&zipCode%3D
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::com.clockweatherpro.ClockWeatherActivity
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::com.clockweatherpro.forecast
+feature::android.hardware.screen.portrait
+feature::android.hardware.location.network
+activity::.KontrolaPravosti
+activity::com.clockweatherpro.webcams
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+service_receiver::WS Clock
+activity::com.clockweatherpro.setbackground
+provider::android.appwidget.provider
+url::weatherservicesxml.joky.info
+activity::com.clockweatherpro.initconfig

@@ -1,0 +1,24 @@
+url::https://www.pardus.at/index.php?section%3Dlogin&mobile
+feature::android.hardware.touchscreen
+url::http://www.pardus.at/index.php?section%3Dlogin
+url::https://www.pardus.at/index.php?section%3Daccount_newchar
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+url::http://static.pardus.at/
+url::https://www.pardus.at/index.php?section%3Dsignup
+url::http://www.pardus.at/index.php?section%3Daccount_play
+url::www.pardus.at
+url::http://www.pardus.at/index.php?section%3Dsignup
+url::https://www.pardus.at/index.php?section%3Daccount_logout
+url::https://www.pardus.at/index.php?section%3Dlogin
+url::http://www.pardus.at/index.php?section%3Daccount_newchar
+url::static.pardus.at
+url::http://www.pardus.at/index.php?section%3Daccount_logout
+activity::.Pardus
+url::https://www.pardus.at/index.php?section%3Daccount_play
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.pardus.at/index.php?section%3Dlogin&mobile

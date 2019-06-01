@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://www.irishstatutebook.ie/
+intent::android.intent.action.MAIN
+url::www.irishstatutebook.ie
+api_call::android/webkit/WebView
+url::http://www.irishstatutebook.ie/home.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ISB
+intent::android.intent.category.LAUNCHER

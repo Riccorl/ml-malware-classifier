@@ -1,0 +1,9 @@
+activity::.LoginScreen
+feature::android.hardware.touchscreen
+activity::.Stable_main
+intent::android.intent.action.MAIN
+permission::android.permission.INTERNET
+intent::android.intent.action.DELETE
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+intent::android.intent.action.VIEW

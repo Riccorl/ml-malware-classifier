@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::tmtg.net
+intent::android.intent.action.MAIN
+activity::.JGActivity
+url::http://tmtg.net/
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+call::getSystemService

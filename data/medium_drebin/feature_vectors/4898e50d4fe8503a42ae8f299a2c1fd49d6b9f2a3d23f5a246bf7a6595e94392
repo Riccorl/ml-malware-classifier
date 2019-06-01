@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.info
+intent::android.intent.action.MAIN
+url::twitter.com
+intent::android.intent.category.DEFAULT
+url::http://61.145.124.93/soft/3GHeart/com.gau.go.launcherex.apk
+intent::android.intent.category.LAUNCHER
+url::http://twitter.com/decomobile
+feature::android.hardware.screen.portrait
+intent::android.intent.category.INFO
+url::61.145.124.93

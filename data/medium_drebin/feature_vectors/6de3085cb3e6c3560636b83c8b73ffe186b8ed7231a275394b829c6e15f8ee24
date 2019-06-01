@@ -1,0 +1,12 @@
+activity::Info
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::com.supermegaguay.android.cataclock.CataClockConfig
+intent::android.intent.category.LAUNCHER
+service_receiver::com.supermegaguay.android.cataclock.CataClockWidget
+call::getPackageInfo
+call::getSystemService
+provider::android.appwidget.provider
+intent::android.intent.category.INFO
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

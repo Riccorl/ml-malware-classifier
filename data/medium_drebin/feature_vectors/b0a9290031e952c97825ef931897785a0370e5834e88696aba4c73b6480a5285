@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+api_call::android/app/Activity;->startActivity
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/ContentResolver;->query
+activity::.activities.ListHistoricalRecordsActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.ListRecordsActivity
+activity::.activities.ListLoggedDatesActivity
+activity::.activities.AddRecordActivity
+service_receiver::.service.AlarmReceiver
+call::Read/Write External Storage
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.FLASHLIGHT
+feature::android.hardware.screen.portrait
+activity::.activities.ListRecordsActivity
+intent::android.intent.category.LAUNCHER

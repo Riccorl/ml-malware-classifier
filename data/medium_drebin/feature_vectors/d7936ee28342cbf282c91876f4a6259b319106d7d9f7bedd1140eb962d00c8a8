@@ -1,0 +1,10 @@
+url::http://magiccards.info/query?q%3D
+feature::android.hardware.touchscreen
+activity::.Search
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::magiccards.info
+intent::android.intent.category.LAUNCHER
+url::http://magiccards.info/query?q%3D%21

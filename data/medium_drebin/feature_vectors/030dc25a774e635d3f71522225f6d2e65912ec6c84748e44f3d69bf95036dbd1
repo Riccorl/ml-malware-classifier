@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.ChartActivity
+intent::android.intent.action.MAIN
+activity::.MainActivity
+activity::.AboutActivity
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.QuoteActivity
+call::getSystemService

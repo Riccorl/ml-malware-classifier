@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+url::http://www.doviz.gen.tr
+url::http://www.doviz.gen.tr/?mobile%3D1
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.doviz.gen.tr
+permission::android.permission.INTERNET
+activity::.DovizKurlari
+feature::android.hardware.screen.portrait
+url::http://www.doviz.gen.tr/doviz_json.asp?version%3D1.2
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

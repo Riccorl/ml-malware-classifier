@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/URL;->getContent
+url::http://teletext.rtvslo.si/ttx/applications/ttx?cmd%3Dload&page%3D
+url::http://www.rtvslo.si/strani/teletekst/10</FONT>
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::teletext.rtvslo.si
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+url::www.rtvslo.si
+activity::.Teletekst
+url::http://teletext.rtvslo.si/ttx/

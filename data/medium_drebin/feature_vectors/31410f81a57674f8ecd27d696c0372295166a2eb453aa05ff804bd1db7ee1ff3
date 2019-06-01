@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://www.bolicua.com/makeup/face.html
+permission::android.permission.INTERNET
+url::www.bolicua.com
+activity::.MakeUpArtist
+intent::android.intent.category.LAUNCHER

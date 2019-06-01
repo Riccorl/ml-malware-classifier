@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+url::http://market.android.com/details?id%3Dcom.armoredsoft.android.armoreddefense.game
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+call::HttpPost
+url::market.android.com
+url::http://spreadsheets.google.com/formResponse?formkey%3D
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+activity::.GameActivity
+call::Obfuscation(Base64)
+url::https://data.flurry.com/aar.do
+url::data.flurry.com
+url::http://data.flurry.com/aar.do
+api_call::java/net/URL;->openConnection
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::spreadsheets.google.com
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

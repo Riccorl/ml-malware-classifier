@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::itclock.puke365.com
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://itclock.puke365.com/mobile/flower.html
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+activity::.anFace
+activity::.anChuJian

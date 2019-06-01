@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::OpeningEx
+intent::android.intent.action.MAIN
+url::http://tatamemo.seesaa.net/article/181500005.html
+url::http://tatamemo.seesaa.net/article/181394058.html
+feature::android.hardware.screen.portrait
+url::tatamemo.seesaa.net
+intent::android.intent.category.LAUNCHER
+activity::.OpeningEx

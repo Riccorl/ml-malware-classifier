@@ -1,0 +1,12 @@
+activity::Meteor2Activity
+call::getDeviceId
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+call::Obfuscation(Base64)
+call::printStackTrace
+api_call::android/telephony/TelephonyManager;->getDeviceId
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.READ_PHONE_STATE
+activity::.Meteor2Activity

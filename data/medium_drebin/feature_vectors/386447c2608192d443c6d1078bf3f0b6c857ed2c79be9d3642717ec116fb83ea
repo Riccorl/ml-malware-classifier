@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.carcaphone
+url::http://www.carcaphone.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::www.carcaphone.com
+real_permission::android.permission.INTERNET

@@ -1,0 +1,10 @@
+feature::android.hardware.location.network
+service_receiver::Christmas Sunrise Sunset Wallpaper Free
+activity::.SunriseSunsetWallpaperSettings
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+feature::android.software.live_wallpaper
+api_call::android/location/LocationManager;->getLastKnownLocation
+call::getSystemService

@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+activity::Downloader
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+api_call::android/net/ConnectivityManager;->getAllNetworkInfo
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+real_permission::android.permission.VIBRATE
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://coolcode.org
+intent::android.intent.category.BROWSABLE
+url::coolcode.org
+permission::android.permission.WAKE_LOCK
+service_receiver::DownloadService
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+activity::FileExistedDialog
+activity::StopDownloadDialog

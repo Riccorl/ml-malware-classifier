@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::www.tinyappworks.com
+intent::android.intent.action.MAIN
+activity::.MenetrendApp
+url::http://www.tinyappworks.com/menetrend.html
+intent::android.intent.category.LAUNCHER

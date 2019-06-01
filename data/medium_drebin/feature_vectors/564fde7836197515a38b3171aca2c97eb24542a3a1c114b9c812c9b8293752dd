@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::com.k1.pack.statesDemo.Challenge
+intent::android.intent.action.MAIN
+activity::com.k1.pack.statesDemo.BestScores
+api_call::android/media/MediaPlayer;->start
+activity::com.k1.pack.statesDemo.ResForFullAnswer
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::com.k1.pack.statesDemo.Start
+activity::.Start
+activity::com.k1.pack.statesDemo.Res
+activity::com.k1.pack.statesDemo.StartChallenge
+activity::com.k1.pack.statesDemo.NasionalAlanthem
+activity::com.k1.pack.statesDemo.Description
+real_permission::android.permission.WAKE_LOCK

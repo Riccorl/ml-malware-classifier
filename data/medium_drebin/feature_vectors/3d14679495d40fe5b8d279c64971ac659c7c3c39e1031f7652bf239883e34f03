@@ -1,0 +1,10 @@
+call::Obfuscation(Base64)
+activity::.ThinkAhead
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::www.phonegap.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::http://www.phonegap.com

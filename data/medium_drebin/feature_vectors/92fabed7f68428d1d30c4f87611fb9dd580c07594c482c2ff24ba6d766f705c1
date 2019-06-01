@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.activity.IzakayaDice
+activity::.activity.Dice
+feature::android.hardware.screen.portrait
+activity::.activity.IzakayaDiceEditorial
+intent::android.intent.category.LAUNCHER
+activity::.IzakayaDice
+call::getSystemService
+activity::.activity.Help

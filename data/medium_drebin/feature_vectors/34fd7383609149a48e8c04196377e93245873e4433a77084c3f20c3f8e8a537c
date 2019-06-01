@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::Preferences
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::Payments
+call::Obfuscation(Base64)
+activity::.Payments
+url::m.scansfer.com
+url::http://m.scansfer.com/help
+intent::android.intent.category.LAUNCHER
+url::https://m.scansfer.com/mqr.php?p%3D

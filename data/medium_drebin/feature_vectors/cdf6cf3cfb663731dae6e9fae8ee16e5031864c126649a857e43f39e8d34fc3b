@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+provider::android.appwidget.provider
+service_receiver::Opening Day
+call::Read/Write External Storage

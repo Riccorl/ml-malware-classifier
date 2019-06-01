@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+service_receiver::apsoft.apmemo.MemoAlarm
+url::http://www.apmemo.com/android
+call::Read/Write External Storage
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+activity::apsoft.apmemo.apMemoWidgetView
+api_call::android/content/Context;->startActivity
+real_permission::android.permission.VIBRATE
+activity::apsoft.apmemo.Settings
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::www.apmemo.com
+permission::android.permission.WAKE_LOCK
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::apsoft.apmemo.apMemoWidgetConfigure
+intent::android.intent.category.LAUNCHER
+activity::.apMemo
+service_receiver::apsoft.apmemo.NotificationReceiver
+provider::android.appwidget.provider

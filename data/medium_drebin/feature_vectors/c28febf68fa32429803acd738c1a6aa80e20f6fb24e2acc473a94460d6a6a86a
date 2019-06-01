@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::a.excite.co.jp
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.ExcitePortal
+intent::android.intent.category.LAUNCHER
+url::http://a.excite.co.jp/

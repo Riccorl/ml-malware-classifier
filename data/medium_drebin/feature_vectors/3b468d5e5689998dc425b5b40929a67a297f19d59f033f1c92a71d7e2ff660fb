@@ -1,0 +1,10 @@
+activity::.Activity.MyPreferenceActivity
+feature::android.hardware.touchscreen
+intent::android.intent.category.SAMPLE_CODE
+intent::android.intent.action.MAIN
+activity::.MainActivity
+activity::.Activity.CrosswordListActivity
+intent::android.intent.category.LAUNCHER
+activity::.Activity.MainActivity
+call::getPackageInfo
+activity::.Activity.CrosswordActivity

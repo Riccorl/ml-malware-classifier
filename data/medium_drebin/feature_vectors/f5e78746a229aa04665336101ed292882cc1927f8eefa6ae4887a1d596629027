@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::java/net/HttpURLConnection
+activity::.MDHSchedule
+permission::android.permission.INTERNET
+url::mdh.se
+url::www.grupp12.se
+intent::android.intent.category.LAUNCHER
+url::http://mdh.se/schema/visa.jsp?
+url::http://www.grupp12.se/mdhschedule/mdhscheduleinfo.txt
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+url::http://mdh.se/schema/kombinera.jsp

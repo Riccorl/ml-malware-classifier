@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_WIMAX_STATE
+service_receiver::.SwitchToggle4gService
+api_call::android/content/Context;->startService
+service_receiver::.Toggle4gForEvoWidget$UpdateService
+provider::android.appwidget.provider
+permission::android.permission.CHANGE_WIMAX_STATE
+call::getSystemService

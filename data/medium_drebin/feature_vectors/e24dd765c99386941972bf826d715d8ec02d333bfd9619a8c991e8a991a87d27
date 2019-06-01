@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.LogIn
+real_permission::android.permission.ACCESS_NETWORK_STATE
+activity::.TabHolderActivity
+permission::android.permission.INTERNET
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::https://www.healthequity.com/MemberService.svc/
+call::getSystemService
+url::www.healthequity.com

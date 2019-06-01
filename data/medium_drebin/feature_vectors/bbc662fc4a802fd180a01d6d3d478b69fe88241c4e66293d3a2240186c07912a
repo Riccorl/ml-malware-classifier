@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.ACTION_SCREEN_ON
+intent::android.intent.category.DEFAULT
+api_call::android/content/Context;->startService
+service_receiver::.LunarCalWL$UpdateService
+provider::android.appwidget.provider

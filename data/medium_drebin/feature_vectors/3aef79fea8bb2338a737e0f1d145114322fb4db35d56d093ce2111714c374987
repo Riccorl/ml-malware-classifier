@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+url::https://login
+activity::.WifiTest
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+intent::android.net.wifi.STATE_CHANGE
+api_call::org/apache/http/impl/client/DefaultHttpClient
+url::login
+real_permission::android.permission.ACCESS_WIFI_STATE
+service_receiver::BroadcastReceiver for AutoLogin
+call::HttpPost
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+call::getSystemService
+permission::android.permission.ACCESS_WIFI_STATE

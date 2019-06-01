@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.MAIN
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+url::droid.attorneyproz.com
+real_permission::android.permission.INTERNET
+feature::android.hardware.location
+url::http://droid.attorneyproz.com?loc%3D
+activity::.AttorneyProzActivity
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/location/LocationManager;->getLastKnownLocation
+call::getSystemService
+url::http://droid.attorneyproz.com

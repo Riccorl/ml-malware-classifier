@@ -1,0 +1,27 @@
+url::http://shareyourboard.com/
+feature::android.hardware.touchscreen
+url::http://shareyourboard.com
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.CAMERA
+feature::android.hardware.camera.autofocus
+real_permission::android.permission.VIBRATE
+permission::android.permission.CAMERA
+service_receiver::.processing.ProcessingService
+call::getSystemService
+api_call::android/os/PowerManager$WakeLock;->acquire
+url::shareyourboard.com
+api_call::android/hardware/Camera;->open
+feature::android.hardware.screen.landscape
+call::Read/Write External Storage
+permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.BrowseActivity
+feature::android.hardware.camera
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER

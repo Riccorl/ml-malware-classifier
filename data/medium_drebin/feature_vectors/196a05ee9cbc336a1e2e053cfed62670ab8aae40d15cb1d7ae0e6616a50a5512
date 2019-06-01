@@ -1,0 +1,14 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::baau.org
+url::baau.org\n\nBAAU
+feature::android.hardware.screen.portrait
+url::http://baau.org
+url::http://baau.org\n\nBAAU
+intent::android.intent.category.LAUNCHER
+url::http://tiny.cc/_
+url::tiny.cc
+activity::.BAAU
+real_permission::android.permission.INTERNET

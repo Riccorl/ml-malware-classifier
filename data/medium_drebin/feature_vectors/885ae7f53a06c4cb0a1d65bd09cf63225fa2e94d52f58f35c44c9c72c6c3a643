@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+activity::.StartActivity
+real_permission::android.permission.INTERNET
+url::ttackstyle.appspot.com
+intent::android.intent.category.LAUNCHER
+url::http://ttackstyle.appspot.com/ando.do?lang%3D
+activity::WebViewActivity
+call::getSystemService
+activity::.TekuActivity

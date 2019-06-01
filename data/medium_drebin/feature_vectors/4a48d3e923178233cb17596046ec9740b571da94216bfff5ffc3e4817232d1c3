@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::it.interclock.Info
+service_receiver::Inter Clock
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

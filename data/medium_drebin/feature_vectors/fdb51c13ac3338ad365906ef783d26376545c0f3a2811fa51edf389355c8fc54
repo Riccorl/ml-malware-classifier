@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+activity::.FullLaunchActivity
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+activity::.wallpaper.LiteRollingSettings
+feature::android.software.live_wallpaper
+activity::.InfoMain
+activity::.LiteConfiguration4x1
+intent::android.intent.category.LAUNCHER
+activity::.LiteConfigurationMinute4x2
+call::getPackageInfo
+api_call::android/app/Activity;->startActivity
+activity::.LiteConfiguration3x1
+call::getSystemService

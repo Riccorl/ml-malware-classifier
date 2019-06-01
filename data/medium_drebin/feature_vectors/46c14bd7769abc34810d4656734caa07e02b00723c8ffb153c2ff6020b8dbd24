@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.info
+intent::android.intent.action.MAIN
+url::http://m.sorapps.com
+url::m.sorapps.com
+provider::android.appwidget.provider
+intent::android.intent.category.INFO

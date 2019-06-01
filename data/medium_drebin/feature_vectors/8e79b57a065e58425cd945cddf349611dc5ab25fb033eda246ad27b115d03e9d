@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+activity::.CricketSchedule
+intent::android.intent.action.MAIN
+activity::.CMatches
+activity::.GroundMatches
+activity::.GMatches
+activity::.CountryMatches
+activity::.TodaysSchedule
+intent::android.intent.category.LAUNCHER
+activity::.Schedule
+call::getSystemService

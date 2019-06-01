@@ -1,0 +1,15 @@
+url::phone-e6b.com
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://m.phone-e6b.com/video.htm
+url::m.phone-e6b.com
+call::Obfuscation(Base64)
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://phone-e6b.com,
+intent::android.intent.category.LAUNCHER
+url::http://phone-e6b.com
+url::phone-e6b.com,
+api_call::android/app/Activity;->setContentView
+call::getSystemService
+activity::.E6BAndroidEmulator

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://hippyapps.com/climate_change.php
+permission::android.permission.INTERNET
+activity::.climatechange
+url::hippyapps.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET

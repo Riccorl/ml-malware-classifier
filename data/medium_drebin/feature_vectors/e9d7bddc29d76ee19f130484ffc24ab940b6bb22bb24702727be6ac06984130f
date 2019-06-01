@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.CupomListActivity
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.CupoMobileActivity
+call::getSystemService
+activity::.CupoMobileSplashActivity

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+call::Read/Write External Storage
+activity::.Reboot
+call::getPackageInfo
+intent::android.intent.action.CREATE_SHORTCUT
+api_call::android/app/ActivityManager;->killBackgroundProcesses
+call::getSystemService
+activity::.ShortcutListAct
+api_call::java/lang/Runtime;->exec
+permission::android.permission.KILL_BACKGROUND_PROCESSES
+real_permission::android.permission.RESTART_PACKAGES
+call::Execution of external commands
+api_call::android/content/Context;->sendBroadcast
+intent::android.intent.category.DEFAULT
+activity::com.liveovd.listview.ShortcutListAct
+activity::.ShortcutAct
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.LAUNCHER
+service_receiver::com.android.md5.Settings

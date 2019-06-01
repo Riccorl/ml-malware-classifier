@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+api_call::android/content/ContentResolver;->openInputStream
+activity::.DisplayMediaActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::Cipher(DES/ECB/PKCS5Padding)
+intent::android.intent.action.SEND
+intent::android.intent.category.DEFAULT
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.ACCESS_CHECKIN_PROPERTIES
+call::Read/Write External Storage
+permission::android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+call::getSystemService

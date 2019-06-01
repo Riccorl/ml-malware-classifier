@@ -1,0 +1,17 @@
+activity::.view.MainMenu
+activity::Disc Caddy - Edit course
+activity::Disc Caddy - Results
+intent::android.intent.action.MAIN
+activity::.view.Donate
+activity::Disc Caddy - Edit player
+activity::Disc Caddy - Scoreboard
+feature::android.hardware.touchscreen
+feature::android.hardware.screen.portrait
+activity::Disc Caddy - Edit players
+activity::.MainMenu
+activity::Disc Caddy - Resume game
+intent::android.intent.category.LAUNCHER
+activity::Disc Caddy - New game
+activity::Disc Caddy - Edit courses
+activity::Disc Caddy  - Hole
+call::getSystemService

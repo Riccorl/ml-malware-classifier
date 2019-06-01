@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+intent::android.intent.action.SEND
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::.MashActivity
+call::getSystemService

@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::https://www.halifax-online.co.uk/_mem_bin/formslogin.asp
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+activity::.Halifax
+intent::android.intent.category.LAUNCHER
+url::www.halifax-online.co.uk

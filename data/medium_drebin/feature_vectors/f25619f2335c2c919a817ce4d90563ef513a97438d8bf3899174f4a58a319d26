@@ -1,0 +1,14 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::sites.google.com
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+activity::.TabMain
+intent::android.intent.category.DEFAULT
+permission::android.permission.READ_SMS
+feature::android.hardware.telephony
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+url::http://sites.google.com/site/androsoftsite/
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS

@@ -1,0 +1,8 @@
+activity::.android.TrucoActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.android.TituloActivity
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.TituloActivity
+activity::.android.OpcoesActivity

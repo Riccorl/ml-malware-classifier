@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::MazePreferences
+activity::SplashLite
+activity::MazeActivity
+intent::android.intent.category.LAUNCHER
+activity::.SplashLite
+call::getPackageInfo

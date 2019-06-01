@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.phonenumbers
+url::http://mex.dgc.se
+permission::android.permission.CALL_PHONE
+activity::.dgccentrex
+url::mex.dgc.se
+activity::.settings
+activity::.shortcuts
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+activity::.contact
+activity::.addFavourites
+real_permission::android.permission.READ_CONTACTS
+permission::android.permission.READ_CONTACTS
+call::getSystemService

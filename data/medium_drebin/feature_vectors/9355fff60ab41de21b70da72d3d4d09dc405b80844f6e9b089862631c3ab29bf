@@ -1,0 +1,18 @@
+activity::Adobe Viewer
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+permission::android.permission.ACCESS_WIFI_STATE
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+service_receiver::BillingReceiver
+real_permission::android.permission.INTERNET
+service_receiver::BillingService
+intent::android.intent.category.LAUNCHER
+permission::android.permission.WAKE_LOCK
+api_call::java/net/ServerSocket
+call::getPackageInfo
+permission::android.permission.DISABLE_KEYGUARD

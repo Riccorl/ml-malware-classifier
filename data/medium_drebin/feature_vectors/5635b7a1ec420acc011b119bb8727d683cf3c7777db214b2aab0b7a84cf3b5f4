@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+activity::.MinHembio
+intent::android.intent.action.MAIN
+url::www.minhembio.com
+call::getSystemService
+url::www.prisjakt.nu
+url::http://www.minhembio.com/marknad
+url::http://www.minhembio.com/forum/lofiversion/index.php/
+url::http://www.minhembio.com/forum/style_images/1/post_snapback.gif\%27
+url::http://www.minhembio.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::http://www.minhembio.com/minhembio.rss?type%3Dnyheter
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->getContent
+url::http://www.prisjakt.nu
+url::http://www.prisjakt.nu/pryl/rss.xml

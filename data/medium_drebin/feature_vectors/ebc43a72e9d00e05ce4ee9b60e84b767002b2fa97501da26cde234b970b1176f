@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+activity::.NieuweMobiel
+provider::com.nmnl.nieuwemobiel.providers.NewsProvider
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+activity::.NieuweMobiel2
+url::http://www.nieuwemobiel.nl/xml/android/1.0/img.php?u%3D
+url::http://www.nieuwemobiel.nl/
+permission::android.permission.INTERNET
+provider::.providers.NewsProvider
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+url::www.nieuwemobiel.nl
+real_permission::android.permission.INTERNET
+url::http://www.nieuwemobiel.nl/xml/android/1.0/news.php?

@@ -1,0 +1,13 @@
+url::mywsb.mobi,
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://mywsb.mobi,
+url::http://kpf-software.blogspot.com
+intent::android.intent.category.LAUNCHER
+activity::.wsb
+url::http://mywsb.mobi
+url::mywsb.mobi
+url::kpf-software.blogspot.com

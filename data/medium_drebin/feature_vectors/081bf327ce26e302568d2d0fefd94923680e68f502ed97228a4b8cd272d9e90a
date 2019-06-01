@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::nobledrops.level.LevelActivity
+activity::nobledrops.main.RegisterUserActivity
+activity::nobledrops.map.MapActivity
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.RegisterUserActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

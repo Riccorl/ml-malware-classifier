@@ -1,0 +1,10 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+activity::TrapBall
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+activity::.TrapBall
+call::getSystemService

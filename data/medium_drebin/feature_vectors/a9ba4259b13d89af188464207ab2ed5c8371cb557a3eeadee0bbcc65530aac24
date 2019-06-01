@@ -1,0 +1,67 @@
+url::http://market.android.com/details?id%3D
+feature::android.hardware.touchscreen
+activity::SuperPower
+url::http://schemas.android.com/apk/res/
+url::http://c.admob.com
+intent::android.intent.category.HOME
+permission::android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+api_call::android/app/Activity;->startActivity
+url::forum.xda-developers.com
+url::http://googleads.g.doubleclick.net/aclk
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+url::http://forum.xda-developers.com/showthread.php?t%3D813661
+activity::Settings Starter
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+url::clk
+url::http://schemas.android.com/apk/res/android
+url::sites.google.com
+url::market.android.com
+url::http://googleads.g.doubleclick.net
+call::printStackTrace
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+url::http://a.admob.com/f0?
+url::googleads.g.doubleclick.net
+call::getSystemService
+url::www.googleadservices.com
+activity::Custom Colors
+url::http://market.android.com/details
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://sites.google.com/site/gson/gson-user-guide
+activity::jug6ernaut.lwp.other.CropImage
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::c.admob.com
+permission::android.permission.INTERNET
+call::Execution of external commands
+activity::Theme Settings
+call::Cipher(AES/CBC/PKCS5Padding)
+feature::android.software.live_wallpaper
+activity::Game Settings
+activity::Game
+url::a.admob.com
+activity::New Scores
+api_call::android/webkit/WebView
+api_call::android/content/ContentResolver;->openInputStream
+activity::High Scores
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::Blocks Free
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+activity::AI Settings
+feature::android.hardware.location.network
+url::www.gstatic.com
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+url::http://www.googleadservices.com/pagead/aclk
+url::http://www.gstatic.com/afma/sdk-core-v
+activity::Night Settings
+url::schemas.android.com
+url::http://clk
+intent::android.intent.category.INFO
+activity::SetPaper

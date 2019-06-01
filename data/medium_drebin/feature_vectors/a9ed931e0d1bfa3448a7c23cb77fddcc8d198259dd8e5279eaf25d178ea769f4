@@ -1,0 +1,39 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.INTERNET
+url::http://prettybattery.googlecode.com/svn/trunk/download/default.zip
+url::lock2.wordpress.com
+real_permission::android.permission.READ_CONTACTS
+call::getPackageInfo
+intent::android.intent.action.BOOT_COMPLETED
+url::http://slideunlocker.googlecode.com/svn/trunk/downloads/download.txt
+api_call::android/content/ContentResolver;->query
+url::http://market.android.com/search?q%3Dlock
+url::market.android.com
+url::http://market.android.com/search?q%3Dpname:org.openintents.filemanager
+url::slideunlocker.googlecode.com
+activity::com.androidapps.widget.battery.SkinDownloader
+real_permission::android.permission.VIBRATE
+activity::.ConfigurationManager
+call::getSystemService
+url::prettybattery.googlecode.com
+service_receiver::Battery
+activity::com.androidapps.widget.battery.BatteryPreference
+intent::android.intent.action.USER_PRESENT
+api_call::android/content/Context;->startService
+service_receiver::Battery Status boot start
+intent::com.androidapps.intent.action.USER_PRESENT
+api_call::java/net/URL;->openConnection
+activity::com.androidapps.widget.battery.ConfigurationManager
+service_receiver::com.androidapps.widget.battery.BatteryWidget$UpdateService
+intent::android.intent.action.MAIN
+activity::Battery Settings
+activity::Battery Info
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::com.androidapps.widget.battery.BatteryStatus
+real_permission::android.permission.INTERNET
+service_receiver::com.androidapps.widget.battery.SsReceiver
+intent::android.intent.category.LAUNCHER
+url::http://lock2.wordpress.com
+api_call::android/app/NotificationManager;->notify
+provider::android.appwidget.provider

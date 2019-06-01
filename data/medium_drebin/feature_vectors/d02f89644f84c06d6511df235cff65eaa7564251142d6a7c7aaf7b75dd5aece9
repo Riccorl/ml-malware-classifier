@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.action.MAIN
+permission::android.permission.WAKE_LOCK
+activity::com.bozosort.pickstick.PicStick
+activity::.PicStick
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.WAKE_LOCK
+activity::com.bozosort.pickstick.PicBrowser
+call::getSystemService
+permission::android.permission.READ_EXTERNAL_STORAGE

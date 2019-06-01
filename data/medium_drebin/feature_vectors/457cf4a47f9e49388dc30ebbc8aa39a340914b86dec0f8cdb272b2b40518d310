@@ -1,0 +1,20 @@
+service_receiver::MainService
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+real_permission::android.permission.VIBRATE
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::ImportCsvActivity
+url::http://fredrik.jemla.eu/pushupbuddy>More
+activity::.MainActivity
+activity::WorkoutActivity
+call::Read/Write External Storage
+activity::LicenseActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.category.LAUNCHER
+url::fredrik.jemla.eu
+url::http://fredrik.jemla.eu/pushupbuddy
+activity::PreferencesActivity
+call::getSystemService
+activity::WorkoutListActivity
+activity::ExportCsvActivity

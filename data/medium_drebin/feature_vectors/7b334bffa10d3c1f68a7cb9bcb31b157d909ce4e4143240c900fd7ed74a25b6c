@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+url::namikawa.asia
+service_receiver::asia.namikawa.richsticky.ImageLoadService
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+url::http://namikawa.asia/

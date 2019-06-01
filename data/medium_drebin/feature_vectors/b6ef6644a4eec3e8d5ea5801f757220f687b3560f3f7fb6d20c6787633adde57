@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://www.youtube.com
+url::www.youtube.com
+real_permission::android.permission.INTERNET
+activity::com.example.android.Web.Web
+activity::.Web
+intent::android.intent.category.LAUNCHER

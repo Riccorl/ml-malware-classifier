@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::www.netmite.com
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.CastlevaniaOoS
+url::http://www.netmite.com/android/andme_signed.apk
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::http://www.netmite.com/android/srv/1.6/upload/castlevani_o841xidf.jar
+intent::android.intent.category.ALTERNATIVE

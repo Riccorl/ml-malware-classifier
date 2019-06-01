@@ -1,0 +1,17 @@
+feature::android.hardware.location.network
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+call::getSystemService
+activity::.CrystalDominance
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://code.google.com/p/android/issues/detail?id%3D10789
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+api_call::android/location/LocationManager;->getLastKnownLocation
+real_permission::android.permission.INTERNET
+api_call::android/content/Context;->startActivity
+url::code.google.com

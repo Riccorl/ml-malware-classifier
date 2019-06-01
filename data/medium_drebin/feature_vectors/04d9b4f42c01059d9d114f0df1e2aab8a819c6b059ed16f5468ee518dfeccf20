@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::printStackTrace
+permission::android.permission.INTERNET
+url::www.longurlplease.com
+intent::android.intent.category.DEFAULT
+url::http://www.longurlplease.com/api/v1.1?q%3D
+real_permission::android.permission.INTERNET
+intent::android.intent.category.BROWSABLE
+intent::android.intent.action.VIEW

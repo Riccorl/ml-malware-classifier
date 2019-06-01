@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+activity::.MainActivity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+activity::MainActivity
+service_receiver::TimeLogService
+call::getSystemService
+api_call::android/content/Context;->startService

@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+activity::.TuneIn
+intent::android.intent.action.MAIN
+url::ashevillefm.org
+api_call::android/media/MediaPlayer;->start
+url::http://ashevillefm.org:8000/studio
+service_receiver::.soundservice.Sound
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/app/NotificationManager;->notify
+call::getSystemService
+url::http://ashevillefm.org:8000/studio2
+real_permission::android.permission.WAKE_LOCK

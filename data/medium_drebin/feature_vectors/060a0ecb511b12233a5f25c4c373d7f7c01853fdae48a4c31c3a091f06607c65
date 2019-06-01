@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+provider::android.provider.Telephony.SMS_RECEIVED
+permission::android.permission.RECEIVE_SMS
+activity::.smartsmsfree
+service_receiver::com.jmorgan6.smartsmsfree.SmsMonitor
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+call::getSystemService

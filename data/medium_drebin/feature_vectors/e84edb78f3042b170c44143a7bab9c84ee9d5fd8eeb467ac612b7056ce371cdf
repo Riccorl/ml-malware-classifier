@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.norcom.de/de/become-a-partner
+permission::android.permission.INTERNET
+intent::android.intent.action.MAIN
+url::http://www.norcom.de/de/the-media-appliance
+activity::.StartTabbed
+url::www.norcom.de
+url::http://www.norcom.de/de/tv-production-today
+url::http://www.norcom.de/de/media-asset-management
+intent::android.intent.category.LAUNCHER
+url::http://www.norcom.de/de/presse-news/news-2011
+url::http://www.norcom.de/de/consulting-a-services
+url::http://www.norcom.de/
+api_call::android/content/Context;->startActivity

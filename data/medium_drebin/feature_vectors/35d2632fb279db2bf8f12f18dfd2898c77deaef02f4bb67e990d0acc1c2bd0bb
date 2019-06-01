@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::www.excelltechmobile.com
+activity::FakeAnExcuse
+url::pagead2.googlesyndication.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+api_call::android/content/Context;->startActivity
+url::http://www.excelltechmobile.com/fakeanexcuse.html
+permission::android.permission.INTERNET
+activity::.FakeAnExcuse
+intent::android.intent.category.LAUNCHER
+url::http://pagead2.googlesyndication.com/pagead/show_mobile_ads.js
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

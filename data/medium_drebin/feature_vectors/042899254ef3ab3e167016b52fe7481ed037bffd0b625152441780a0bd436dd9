@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.CHANGE_COMPONENT_ENABLED_STATE
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.MediaScreenAlias
+call::Read/Write External Storage
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::.MediaScreenReceiver
+intent::android.intent.action.MEDIA_SCANNER_FINISHED
+api_call::android/content/pm/PackageManager;->setComponentEnabledSetting
+call::getSystemService
+activity::.MediaScreen

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+provider::.provider.AthkeyaBookProvider
+intent::android.intent.action.MAIN
+url::Cyberiahosting.ca\
+activity::.BookListActivity
+call::Read/Write External Storage
+intent::android.intent.category.LAUNCHER
+url::http://Cyberiahosting.ca\
+real_permission::android.permission.READ_CONTACTS
+api_call::android/app/Activity;->startActivity
+activity::BookListActivity
+api_call::android/content/ContentResolver;->query

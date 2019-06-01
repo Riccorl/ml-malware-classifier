@@ -1,0 +1,11 @@
+feature::android.hardware.touchscreen
+url::http://m.tritium.co.kr/more/tstore/index.php?app%3Dtritiumgames&email%3D
+url::m.tritium.co.kr
+intent::android.intent.action.MAIN
+api_call::android/accounts/AccountManager;->getAccounts
+permission::android.permission.INTERNET
+real_permission::android.permission.GET_ACCOUNTS
+permission::android.permission.GET_ACCOUNTS
+activity::.kernel
+url::http://m.tritium.co.kr/more/tstore/index.php?app%3Dmarket_tg
+intent::android.intent.category.LAUNCHER

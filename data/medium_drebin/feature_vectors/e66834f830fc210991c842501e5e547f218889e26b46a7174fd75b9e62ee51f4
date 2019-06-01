@@ -1,0 +1,9 @@
+url::http://m.cexams.com/ea/
+feature::android.hardware.touchscreen
+activity::.AntonymsActivity
+intent::android.intent.action.MAIN
+url::m.cexams.com
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

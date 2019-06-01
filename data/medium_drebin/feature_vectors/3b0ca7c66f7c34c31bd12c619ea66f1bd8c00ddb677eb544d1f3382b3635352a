@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.PACKAGE_ADDED
+service_receiver::.AbcLauncherWidgetProvider$UpdateService
+intent::android.intent.action.PACKAGE_REMOVED
+service_receiver::AbcLauncherWidgetProvider
+api_call::android/content/Context;->startService
+provider::android.appwidget.provider
+call::getSystemService

@@ -1,0 +1,17 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+url::www.s21.com.gt
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+feature::android.hardware.screen.portrait
+activity::.siglo21
+api_call::java/net/HttpURLConnection
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+call::printStackTrace
+url::http://www.s21.com.gt/sites/default/files/
+real_permission::android.permission.INTERNET
+call::getSystemService
+intent::android.intent.category.LAUNCHER

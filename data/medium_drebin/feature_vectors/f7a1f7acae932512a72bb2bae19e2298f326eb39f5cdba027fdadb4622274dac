@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+call::getSystemService
+permission::android.permission.CALL_PHONE
+activity::.MainActivity
+feature::android.hardware.screen.portrait
+feature::android.hardware.telephony
+permission::android.permission.WRITE_CONTACTS
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+permission::android.permission.READ_PHONE_STATE
+real_permission::android.permission.READ_CONTACTS
+intent::android.intent.action.CALL_BUTTON
+intent::android.intent.action.VIEW

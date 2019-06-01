@@ -1,0 +1,20 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+permission::android.permission.READ_CONTACTS
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+permission::android.permission.SEND_SMS
+real_permission::android.permission.SEND_SMS
+api_call::android/telephony/gsm/SmsManager;->sendMultipartTextMessage
+activity::.NewCount
+activity::.NewExpense
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+activity::.Balance
+activity::.ListCount
+real_permission::android.permission.READ_CONTACTS
+url::schemas.android.com
+url::http://schemas.android.com/apk/res/android
+activity::.DisplayCount

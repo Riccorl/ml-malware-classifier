@@ -1,0 +1,11 @@
+activity::cz.awk.android.docconv.Main
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.Main
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.LAUNCHER
+activity::cz.awk.android.docconv.FileChooser
+activity::cz.awk.android.docconv.ZipChooser
+call::getSystemService
+intent::android.intent.action.VIEW

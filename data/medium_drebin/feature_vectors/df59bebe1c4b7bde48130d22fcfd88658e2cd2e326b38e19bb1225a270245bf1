@@ -1,0 +1,27 @@
+activity::pl.ayground.coloringbook.baselibrary.FileOpenDialog
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::media.admob.com
+call::Read/Write External Storage
+url::http://schemas.android.com/apk/lib/com.google.ads
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+real_permission::android.permission.INTERNET
+activity::.ColoringBook
+api_call::android/content/ContentResolver;->query
+call::getSystemService
+real_permission::android.permission.ACCESS_NETWORK_STATE
+url::http://media.admob.com/sdk-core-v40.js\
+permission::android.permission.INTERNET
+call::Cipher(AES/CBC/PKCS5Padding)
+api_call::android/app/Activity;->startActivity
+api_call::android/webkit/WebView
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+feature::android.hardware.screen.portrait
+url::www.gstatic.com
+intent::android.intent.category.LAUNCHER
+url::http://www.gstatic.com/safa/sdk-core-v40.js\
+activity::pl.ayground.coloringbook.baselibrary.About
+url::schemas.android.com

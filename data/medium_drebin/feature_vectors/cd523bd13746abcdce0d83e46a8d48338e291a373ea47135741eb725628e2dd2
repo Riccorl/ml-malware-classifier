@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.BLUETOOTH
+api_call::android/content/Context;->startActivity
+activity::.MainActivity
+intent::android.intent.category.LAUNCHER
+permission::android.permission.BLUETOOTH_ADMIN
+provider::android.appwidget.provider
+call::getSystemService
+intent::android.bluetooth.intent.action.BLUETOOTH_STATE_CHANGED

@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.HelloNotesActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+url::http://t.qq.com/castalia-young
+intent::android.intent.category.LAUNCHER
+url::t.qq.com
+call::getSystemService

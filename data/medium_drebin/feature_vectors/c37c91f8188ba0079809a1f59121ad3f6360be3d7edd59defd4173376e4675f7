@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+service_receiver::RingSetter
+intent::android.intent.action.MAIN
+intent::android.intent.category.LAUNCHER
+activity::.RingModeTimer
+call::getSystemService

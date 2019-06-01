@@ -1,0 +1,16 @@
+url::www.skitheloup.com
+feature::android.hardware.touchscreen
+url::m.facebook.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::weatherlink.com
+url::http://www.skitheloup.com/index.php?cID%3D80
+url::skitheloupsnow.wordpress.com
+activity::.HelloTabWidget
+permission::android.permission.INTERNET
+url::http://www.skitheloup.com/loupcam/image_top.jpg\
+intent::android.intent.category.LAUNCHER
+url::http://m.facebook.com/pages/Loup-Loup-Ski-Bowl/52479132548
+real_permission::android.permission.INTERNET
+url::http://weatherlink.com/user/louploup/index.php?view%3Dmain&headers%3D0
+url::http://skitheloupsnow.wordpress.com/

@@ -1,0 +1,11 @@
+call::Read/Write External Storage
+feature::android.hardware.touchscreen
+service_receiver::com.sonyericsson.extras.liveview.plugins.PluginReceiver
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+api_call::android/content/Context;->startActivity
+service_receiver::Launcher service
+service_receiver::com.matsumo.liveview.plugins.launcher.LauncherService
+intent::android.intent.category.LAUNCHER
+activity::com.sonyericsson.extras.liveview.plugins.PluginPreferences
+intent::android.intent.category.DEFAULT
+call::getSystemService

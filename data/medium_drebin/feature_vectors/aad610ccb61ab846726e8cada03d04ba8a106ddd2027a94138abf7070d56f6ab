@@ -1,0 +1,35 @@
+feature::android.hardware.touchscreen
+url::htc-dev.net
+url::http://forum-htc-dev.net
+call::printStackTrace
+url::plus.google.com
+permission::android.permission.INTERNET
+url::http://www.youtube.com/user/HTCDEVideos
+url::forum-htc-dev.net
+url::http://mobile.twitter.com/htc_dev
+activity::News
+service_receiver::HTC-DEV 4x2
+url::www.htc-dev.net
+url::https://plus.google.com/116956203938057161432/posts
+url::mobile.twitter.com
+activity::Load...
+url::http://www.facebook.com/HTCDEV
+url::www.forum-htc-dev.net
+service_receiver::HTC-DEV 4x1
+url::phonoins.blogspot.com
+call::Read/Write External Storage
+activity::.htcdevwidget
+api_call::java/net/URL;->openConnection
+url::http://phonoins.blogspot.com
+url::www.facebook.com
+intent::android.intent.action.MAIN
+url::http://htc-dev.net
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Notizia
+url::www.youtube.com
+real_permission::android.permission.INTERNET
+url::http://www.forum-htc-dev.net/search?search_id%3Dnewposts
+intent::android.intent.category.LAUNCHER
+url::http://www.htc-dev.net/feed/rss/
+url::http://www.htc-dev.net/
+provider::android.appwidget.provider

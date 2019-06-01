@@ -1,0 +1,13 @@
+feature::android.hardware.location.network
+feature::android.hardware.location.gps
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_MOCK_LOCATION
+feature::android.hardware.touchscreen
+api_call::android/location/LocationManager;->isProviderEnabled
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+api_call::android/content/Context;->startService
+service_receiver::.OdometerWidget$UpdateService
+provider::android.appwidget.provider
+call::getSystemService

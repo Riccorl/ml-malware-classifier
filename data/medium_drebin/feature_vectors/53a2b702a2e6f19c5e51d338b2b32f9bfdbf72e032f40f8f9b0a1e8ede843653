@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://www.huilii.com/DayQuote.seam?market%3D
+intent::android.intent.action.MAIN
+call::printStackTrace
+url::http://www.huilii.com/resource/rest/quotes
+activity::.QueryHuilii
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::www.huilii.com
+intent::android.intent.action.SEARCH
+intent::android.intent.category.LAUNCHER
+activity::.QuoteActivity
+api_call::org/apache/http/impl/client/DefaultHttpClient
+call::HttpPost

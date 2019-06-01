@@ -1,0 +1,17 @@
+url::m.facebook.com
+feature::android.hardware.location.network
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+url::http://m.facebook.com/skolmaten
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.INTERNET
+api_call::android/location/LocationManager;->getBestProvider
+feature::android.hardware.screen.portrait
+feature::android.hardware.location
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+call::getSystemService

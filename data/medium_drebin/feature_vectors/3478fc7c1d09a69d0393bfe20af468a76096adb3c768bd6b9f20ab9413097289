@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+url::forum.xda-developers.com
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+activity::.USBDebuggingActivity
+url::http://schemas.android.com/apk/res/com.leinardi.librettouniversitario
+url::http://forum.xda-developers.com/showthread.php?t%3D720739
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+call::getPackageInfo
+call::Read/Write External Storage
+api_call::android/content/Context;->startActivity
+url::schemas.android.com

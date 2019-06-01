@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+activity::.Exhibition
+intent::android.intent.category.LAUNCHER
+activity::.P5exhbn

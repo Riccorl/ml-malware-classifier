@@ -1,0 +1,15 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/os/Vibrator;->vibrate
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+activity::.main
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.kippura.net/tapdisco/addscore.php
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+feature::android.hardware.screen.landscape
+url::www.kippura.net
+call::HttpPost
+call::getSystemService

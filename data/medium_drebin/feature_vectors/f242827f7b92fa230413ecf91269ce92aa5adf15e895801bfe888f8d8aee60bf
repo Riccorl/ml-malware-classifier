@@ -1,0 +1,6 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.google.com
+activity::.NothingToDoActivity
+intent::android.intent.category.LAUNCHER
+url::http://www.google.com/search?as_q%3D

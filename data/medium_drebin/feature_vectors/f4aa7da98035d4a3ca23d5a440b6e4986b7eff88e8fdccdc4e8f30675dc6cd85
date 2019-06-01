@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+permission::android.permission.BATTERY_STATS
+intent::android.intent.action.GET_CONTENT
+activity::Coligma Settings
+intent::android.intent.category.DEFAULT
+intent::android.intent.category.OPENABLE
+call::getSystemService

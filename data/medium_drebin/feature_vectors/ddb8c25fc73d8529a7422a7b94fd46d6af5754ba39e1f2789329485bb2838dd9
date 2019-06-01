@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/content/ContentResolver;->query
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+real_permission::android.permission.READ_CONTACTS
+api_call::android/content/Context;->sendBroadcast
+provider::android.appwidget.provider
+service_receiver::.UpdateService

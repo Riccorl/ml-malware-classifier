@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+call::HttpPost
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.INTERNET
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+activity::.closeFeint
+call::getSystemService

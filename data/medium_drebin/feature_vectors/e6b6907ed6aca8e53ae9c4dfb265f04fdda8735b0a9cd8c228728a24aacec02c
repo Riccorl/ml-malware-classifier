@@ -1,0 +1,20 @@
+feature::android.hardware.touchscreen
+url::https://secure.nomadesk.com/nomadesk-ctrller/api.php
+url::http://mynomadesk.com/referral/index/%1$s/
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+activity::.MainActivity
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::mynomadesk.com
+intent::android.intent.category.LAUNCHER
+api_call::android/content/ContentResolver;->query
+api_call::android/webkit/WebView
+real_permission::android.permission.READ_CONTACTS
+call::Read/Write External Storage
+call::HttpPost
+call::getSystemService
+url::secure.nomadesk.com

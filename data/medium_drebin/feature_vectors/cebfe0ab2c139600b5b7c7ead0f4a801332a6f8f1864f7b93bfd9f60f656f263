@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::.ActMain
+permission::android.permission.CALL_PHONE
+api_call::android/os/Vibrator;->vibrate
+api_call::android/app/ActivityManager;->restartPackage
+call::Read/Write External Storage
+activity::ActCallConfigure
+real_permission::android.permission.READ_CONTACTS
+feature::android.hardware.screen.portrait
+api_call::android/content/ContentResolver;->query
+permission::android.permission.READ_CONTACTS
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+real_permission::android.permission.RESTART_PACKAGES
+feature::android.hardware.telephony
+api_call::java/net/URL;->openConnection
+intent::android.intent.action.MAIN
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.ActCall
+provider::android.appwidget.provider

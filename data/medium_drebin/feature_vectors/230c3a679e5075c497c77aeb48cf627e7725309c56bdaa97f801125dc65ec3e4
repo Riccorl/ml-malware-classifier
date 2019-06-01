@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+service_receiver::TakeScreenshotService
+api_call::java/lang/Runtime;->exec
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

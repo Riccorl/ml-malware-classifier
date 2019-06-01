@@ -1,0 +1,16 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.wpandroid.com
+url::http://i51.tinypic.com/156s905.jpg
+call::printStackTrace
+url::http://www.wpandroid.com
+activity::.Activity1
+permission::android.permission.INTERNET
+url::http://www.WPAndroid.com
+url::www.WPAndroid.com
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://news.search.yahoo.com/rss?ei%3DUTF-8&p%3Dandroid&fr%3Dyfp-t-892
+url::i51.tinypic.com
+url::news.search.yahoo.com

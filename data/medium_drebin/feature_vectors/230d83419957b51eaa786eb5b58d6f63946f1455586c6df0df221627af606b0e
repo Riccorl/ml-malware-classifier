@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::com.locnet.flitkeyboard.lib.FlitKeyboardLauncher
+service_receiver::.FlitKeyboardLite
+intent::android.intent.category.PREFERENCE
+intent::android.intent.category.DEFAULT
+activity::.FlitKeyboardLiteSettings
+call::getSystemService
+activity::.FlitKeyboardLauncher
+intent::android.intent.category.LAUNCHER

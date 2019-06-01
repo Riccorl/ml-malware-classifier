@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+feature::android.hardware.wifi
+permission::android.permission.ACCESS_WIFI_STATE
+permission::android.permission.READ_PHONE_STATE
+call::getWifiState
+call::getSystemService
+real_permission::android.permission.ACCESS_WIFI_STATE
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/net/wifi/WifiManager;->getConnectionInfo
+url::http://schemas.android.com/apk/res/android
+url::schemas.android.com

@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::.QuizDroidEsFree
+activity::Ajuda
+intent::android.intent.action.MAIN
+call::printStackTrace
+activity::PreguntaExtra
+activity::MostraResultats
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::CanviaCategoria
+api_call::android/media/MediaPlayer;->start
+real_permission::android.permission.WAKE_LOCK

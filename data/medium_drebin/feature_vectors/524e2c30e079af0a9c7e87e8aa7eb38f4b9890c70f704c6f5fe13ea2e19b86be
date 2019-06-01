@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+intent::android.intent.action.MAIN
+activity::%E5%B3%E6%BA%E2%E2%E2%E2%E2%E2%E2
+api_call::java/lang/Runtime;->exec
+activity::%E5%BE%E6%BA%E2%E2%E2%E2%E2%E2%E2%E2%E2
+call::Execution of external commands
+activity::.PhoneSleepActivity
+intent::android.intent.category.LAUNCHER
+activity::.PowerOffActivity

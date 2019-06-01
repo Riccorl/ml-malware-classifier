@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MEDIA_EJECT
+intent::android.intent.action.MEDIA_BAD_REMOVAL
+intent::android.intent.action.MEDIA_MOUNTED
+service_receiver::org.mikeyin.livewallpaper.ExternalStorageInfoReceiver
+intent::android.intent.action.MEDIA_NOFS
+intent::android.intent.action.MEDIA_UNMOUNTED
+call::Read/Write External Storage
+call::getSystemService
+intent::android.intent.action.MEDIA_REMOVED

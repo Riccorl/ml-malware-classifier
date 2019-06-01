@@ -1,0 +1,15 @@
+api_call::android/webkit/WebView
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Calculator
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::Arity
+activity::calculator.ShowGraph
+activity::calculator.Help
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::calculator.ShowGraph3d
+activity::calculator.Settings
+call::Read/Write External Storage
+activity::calculator.ListDefs
+call::getSystemService

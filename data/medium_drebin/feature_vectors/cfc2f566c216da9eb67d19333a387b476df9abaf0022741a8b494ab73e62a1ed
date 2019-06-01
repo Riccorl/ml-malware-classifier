@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.Options
+activity::.Game
+intent::android.intent.category.DEFAULT
+activity::.PuzzleSelector
+activity::.MainMenu
+activity::.SpinBlocks
+intent::android.intent.category.LAUNCHER
+activity::.DifficultySelector
+activity::.HighScores
+feature::android.hardware.screen.landscape
+api_call::android/app/Activity;->startActivity
+call::getSystemService
+activity::.Instructions

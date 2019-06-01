@@ -1,0 +1,17 @@
+feature::android.hardware.touchscreen
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+url::http://www.galaxy-tab.mobi/Galaxy_Tab/Alternatives_of_Samsung_Galaxy_Tab.html
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.INTERNET
+url::http://ebookhow.info/Xoom/Motorola_Xoom.html
+url::http://ebookhow.info/Android_Tab_Guide/Android_Tablet_Guide.html
+intent::android.intent.category.LAUNCHER
+url::http://ebookhow.info/Galaxy_Tab/Samsung_Galaxy_Tab.html
+real_permission::android.permission.INTERNET
+activity::.SplashActivity
+url::ebookhow.info
+call::getSystemService
+url::www.galaxy-tab.mobi

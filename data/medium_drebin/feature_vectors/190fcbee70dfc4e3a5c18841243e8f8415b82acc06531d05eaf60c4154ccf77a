@@ -1,0 +1,15 @@
+permission::android.permission.SET_WALLPAPER
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::printStackTrace
+feature::android.hardware.screen.portrait
+call::Read/Write External Storage
+activity::.WidgetPreView
+service_receiver::.AnalogClockWidgetProvider
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+permission::android.permission.SET_WALLPAPER_HINT
+api_call::android/content/Context;->startService

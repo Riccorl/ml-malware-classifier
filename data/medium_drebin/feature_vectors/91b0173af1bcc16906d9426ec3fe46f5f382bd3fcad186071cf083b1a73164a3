@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::android/telephony/TelephonyManager;->getLine1Number
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.CALL_PHONE
+activity::.MainActivity
+url::http://phone.alrimnet.co.kr/index.asp
+permission::android.permission.INTERNET
+permission::android.permission.READ_PHONE_STATE
+feature::android.hardware.telephony
+activity::com.ncall.MainActivity
+intent::android.intent.category.LAUNCHER
+url::phone.alrimnet.co.kr
+real_permission::android.permission.INTERNET
+real_permission::android.permission.READ_PHONE_STATE
+call::getSystemService

@@ -1,0 +1,17 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+activity::.ACT_AD2012_Free
+real_permission::android.permission.RECORD_AUDIO
+intent::android.intent.action.MAIN
+call::printStackTrace
+api_call::android/media/MediaPlayer;->start
+api_call::android/media/MediaRecorder;->setAudioSource
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+api_call::android/os/Vibrator;->cancel
+api_call::android/content/Context;->startActivity
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

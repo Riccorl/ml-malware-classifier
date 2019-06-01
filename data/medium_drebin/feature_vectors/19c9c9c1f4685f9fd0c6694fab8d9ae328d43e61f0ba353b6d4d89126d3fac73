@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+url::www.bigtincan.com
+url::https://www.bigtincan.com/wap/managemynumbers.php
+intent::android.intent.action.MAIN
+activity::.Login
+activity::.DialScreen
+permission::android.permission.INTERNET
+url::forum.bigtincan.com
+real_permission::android.permission.INTERNET
+url::http://www.bigtincan.com/api/
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+url::https://www.bigtincan.com/wap/signup1.php
+activity::.BigTinCan
+url::http://forum.bigtincan.com/index.php?board%3D25.0
+api_call::java/net/URL;->openConnection

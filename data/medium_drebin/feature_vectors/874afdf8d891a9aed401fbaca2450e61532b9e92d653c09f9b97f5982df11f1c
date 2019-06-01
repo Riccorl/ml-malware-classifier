@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+url::www.mycoosh.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.LaunchWeb
+url::http://www.mycoosh.com/coosh/category.php?s%3Dandroid
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER

@@ -1,0 +1,10 @@
+url::www.davewhite.com
+feature::android.hardware.touchscreen
+activity::.PhoneticAlphabet
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+url::http://www.davewhite.com/android/PhoneticAlphabet.html
+intent::android.intent.category.LAUNCHER
+url::http://www.davewhite.com/android/HouseAd.html

@@ -1,0 +1,27 @@
+feature::android.hardware.touchscreen
+permission::android.permission.ACCESS_FINE_LOCATION
+activity::.MainActivity
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+real_permission::android.permission.ACCESS_FINE_LOCATION
+intent::android.intent.action.SEARCH
+real_permission::android.permission.READ_CONTACTS
+feature::android.hardware.location.gps
+service_receiver::.receivers.ProximityReceiver
+api_call::android/content/Context;->startActivity
+permission::android.permission.ACCESS_COARSE_LOCATION
+feature::android.hardware.location
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+intent::it.cajani.matteo.android.wakeapp.intent.PROXIMITY
+intent::it.cajani.matteo.android.wakeapp.intent.START_WAKE
+api_call::android/content/ContentResolver;->openInputStream
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::.receivers.WakeReceiver
+feature::android.hardware.location.network
+intent::android.intent.category.LAUNCHER
+activity::.activities.MainActivity
+api_call::android/location/LocationManager;->addProximityAlert

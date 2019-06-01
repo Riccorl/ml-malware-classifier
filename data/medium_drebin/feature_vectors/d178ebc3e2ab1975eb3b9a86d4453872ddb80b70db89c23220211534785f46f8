@@ -1,0 +1,27 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+url::http://schemas.android.com/apk/res/
+call::printStackTrace
+activity::.Main
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+activity::.Moni
+url::http://127.0.0.1/t/test
+url::http://127.0.0.1
+activity::.Shunxu
+api_call::android/content/Context;->startActivity
+url::http://maps.google.com/maps?q%3D
+api_call::android/telephony/TelephonyManager;->getLine1Number
+url::127.0.0.1
+call::getSystemService
+intent::android.intent.action.Shunxu
+real_permission::android.permission.READ_PHONE_STATE
+intent::android.intent.action.Moni
+url::http://127.0.0.1/a/p1
+intent::android.intent.action.MAIN
+intent::android.intent.action.Suiji
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::maps.google.com
+activity::.Suiji
+url::schemas.android.com

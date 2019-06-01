@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.ParcialActivity
+intent::android.intent.action.MAIN
+activity::.ResultadosActivity
+activity::.MainActivity
+activity::.PreguntaActivity
+intent::android.intent.category.LAUNCHER
+activity::.InstruccionesActivity

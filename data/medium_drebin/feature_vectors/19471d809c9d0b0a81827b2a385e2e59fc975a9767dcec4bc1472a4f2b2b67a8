@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+activity::.About
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+activity::.CECAmpacityActivity
+intent::android.intent.category.LAUNCHER
+activity::.CECAmpSizeActivity

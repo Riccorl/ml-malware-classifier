@@ -1,0 +1,24 @@
+feature::android.hardware.touchscreen
+url::twitter.com
+permission::android.permission.INTERNET
+url::http://www.facebook.com/profile.php?id%3D100002211141447
+activity::.Logo
+activity::.SearchThread
+url::http://www.youtube.com/user/hexamob?feature%3Dmhee
+api_call::android/content/Context;->startActivity
+call::printStackTrace
+real_permission::android.permission.VIBRATE
+call::getSystemService
+permission::android.permission.VIBRATE
+url::http://twitter.com/
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+url::www.facebook.com
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+real_permission::android.permission.READ_LOGS
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+url::www.youtube.com
+feature::android.hardware.screen.portrait
+activity::.RecoveryThread
+intent::android.intent.category.LAUNCHER

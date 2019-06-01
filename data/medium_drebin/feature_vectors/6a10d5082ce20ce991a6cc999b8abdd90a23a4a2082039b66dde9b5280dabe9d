@@ -1,0 +1,10 @@
+activity::.PdaCam
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::http://pda.camcontacts.com
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+url::pda.camcontacts.com
+real_permission::android.permission.INTERNET
+activity::PdaCam

@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+intent::sensorfit.easyfit.app.intent.action.SENSOR_READER_WAKE
+call::printStackTrace
+call::Read/Write External Storage
+intent::android.intent.action.BOOT_COMPLETED
+real_permission::android.permission.WAKE_LOCK
+intent::android.intent.action.PACKAGE_REPLACED
+real_permission::android.permission.VIBRATE
+activity::.LaunchActivity
+call::getSystemService
+service_receiver::com.sensorfit.easyfit.lib.sensor.SensorService
+api_call::android/os/PowerManager$WakeLock;->acquire
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.VIEW
+permission::android.permission.WAKE_LOCK
+service_receiver::com.sensorfit.easyfit.lib.main.BroadcastManager
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+provider::android.appwidget.provider
+intent::android.intent.category.LAUNCHER
+permission::android.permission.RECEIVE_BOOT_COMPLETED

@@ -1,0 +1,20 @@
+permission::android.permission.VIBRATE
+feature::android.hardware.touchscreen
+api_call::android/app/NotificationManager;->notify
+service_receiver::.ReminderAction
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+call::getSystemService
+activity::.ListEditActivity
+intent::android.intent.action.EDIT
+intent::android.intent.category.DEFAULT
+intent::android.intent.action.SEARCH
+activity::.NewFileActivity
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getPackageInfo
+activity::.FileMgrActivity
+call::Read/Write External Storage
+service_receiver::.NotifyClearAction
+intent::android.intent.action.VIEW
+activity::.ItemFindActivity

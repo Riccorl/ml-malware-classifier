@@ -1,0 +1,11 @@
+activity::.MashappActivity
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://mash-app.com/mash_apps/new
+url::http://mash-app.com/
+url::mash-app.com
+intent::android.intent.category.LAUNCHER
+activity::PublishActivity
+activity::MashappActivity
+activity::InfoActivity
+call::getSystemService

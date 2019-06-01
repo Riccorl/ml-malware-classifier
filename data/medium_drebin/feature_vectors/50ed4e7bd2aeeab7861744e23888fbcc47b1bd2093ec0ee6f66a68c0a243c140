@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+service_receiver::CountdownWidget
+service_receiver::.CountdownService
+permission::android.permission.INTERNET
+activity::CountdownConfiguration
+url::http://www.ourweddingapp.com
+url::www.ourweddingapp.com
+provider::android.appwidget.provider
+call::getSystemService

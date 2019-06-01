@@ -1,0 +1,7 @@
+feature::android.hardware.touchscreen
+service_receiver::.GalaxyMediaPlaybackService
+service_receiver::.GalaxyMediaAppWidgetProvider
+call::getPackageInfo
+provider::android.appwidget.provider
+call::getSystemService
+api_call::android/content/Context;->startService

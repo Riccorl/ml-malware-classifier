@@ -1,0 +1,37 @@
+api_call::java/net/HttpURLConnection
+feature::android.hardware.touchscreen
+intent::filemanager.intent.action.GETDIRECTORY
+url::http://www.hotpim.com/ef/
+call::printStackTrace
+activity::.MessageLauncher
+intent::filemanager.intent.action.GETFILE
+permission::android.permission.INTERNET
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+activity::cloud.widget.file.applacation.FileManager
+activity::.FileManagerMessageUpdate
+activity::.MessageSoftMarket
+url::www.hotpim.com
+api_call::android/content/Context;->startActivity
+activity::.MessageSync
+service_receiver::.CopyFileService
+url::http://www.aipim.cn/publicfiles/
+call::getSystemService
+service_receiver::.FileManagerRecever
+intent::filemanager.intent.action.OPENFILE
+url::http://www.aipim.cn/publicfiles/versionCode.txt
+api_call::java/lang/Runtime;->exec
+call::Execution of external commands
+intent::filemanager.intent.action.GETFILES
+call::Read/Write External Storage
+service_receiver::.UpdateBroadCast
+service_receiver::.WidgetUpdateService
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.MessageTaobao
+real_permission::android.permission.READ_LOGS
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::cloud.widget.file.applacation.XPackageManager
+url::www.aipim.cn
+provider::android.appwidget.provider

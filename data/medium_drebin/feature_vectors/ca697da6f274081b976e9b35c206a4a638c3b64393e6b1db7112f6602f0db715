@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.InitializeActivity
+call::Cipher(BC)
+call::Obfuscation(Base64)
+call::printStackTrace
+activity::.MainActivity
+intent::android.intent.category.DEFAULT
+call::getPackageInfo
+intent::android.intent.category.LAUNCHER
+activity::.SettingsActivity
+call::Read/Write External Storage
+api_call::android/content/Context;->startActivity
+call::getSystemService

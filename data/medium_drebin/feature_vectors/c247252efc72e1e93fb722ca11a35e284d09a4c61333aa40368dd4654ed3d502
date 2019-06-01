@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.PickColorActivity
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+intent::android.intent.category.DEFAULT
+activity::.PaintActivity
+feature::android.hardware.screen.landscape
+intent::android.intent.category.LAUNCHER
+call::Read/Write External Storage
+activity::.StartNewActivity

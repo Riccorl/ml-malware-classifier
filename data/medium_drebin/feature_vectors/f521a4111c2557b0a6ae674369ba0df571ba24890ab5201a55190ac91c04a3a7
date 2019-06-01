@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::MeteorLiteWVGA
+url::market.android.com
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+url::http://market.android.com/details?id%3Dcom.mstream.meteor2
+activity::.MeteorLiteWVGA
+intent::android.intent.category.LAUNCHER
+url::http://market.android.com/details?id%3Dcom.mstream.meteorhd

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+url::http://www.openintents.org/en/notepad
+intent::android.intent.action.MAIN
+api_call::android/content/Context;->startActivity
+intent::org.openintents.themes.basiccolors
+intent::org.openintents.themes
+call::getPackageInfo
+url::www.openintents.org
+intent::android.intent.category.INFO
+url::http://www.openintents.org/en/shoppinglist

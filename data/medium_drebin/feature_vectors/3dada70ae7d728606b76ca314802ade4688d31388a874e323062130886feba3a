@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+url::http://www.google.com/
+url::http://www.google.com/gwt/n?u%3D
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+url::www.google.com
+url::https://www.google.com/accounts/ServiceLogin
+permission::android.permission.INTERNET
+activity::.GReaderActivity
+real_permission::android.permission.INTERNET
+url::www.aoyou3g.com
+intent::android.intent.category.LAUNCHER
+url::https://www.google.com/
+activity::.GReaderAbout
+url::http://www.aoyou3g.com/app/greader.html

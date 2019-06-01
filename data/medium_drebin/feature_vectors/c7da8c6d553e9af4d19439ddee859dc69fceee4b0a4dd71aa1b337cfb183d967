@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+activity::.AppList
+activity::.Help
+activity::.About
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
+activity::.AppEdit
+intent::android.intent.action.MAIN
+intent::android.intent.category.DEFAULT
+activity::.CarMote

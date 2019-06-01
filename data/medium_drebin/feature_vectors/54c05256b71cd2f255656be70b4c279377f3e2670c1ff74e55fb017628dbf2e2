@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::AboutDialog
+activity::PreferenceWindow
+service_receiver::BatteryLifeService
+call::getPackageInfo
+activity::BatteryEditor
+provider::android.appwidget.provider
+api_call::android/content/Context;->startService

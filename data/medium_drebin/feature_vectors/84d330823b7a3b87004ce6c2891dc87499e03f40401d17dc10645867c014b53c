@@ -1,0 +1,10 @@
+activity::.Calculator
+feature::android.hardware.touchscreen
+activity::Calculator
+feature::android.hardware.wifi
+intent::android.intent.action.MAIN
+url::www.aedesign.cn
+permission::android.permission.ACCESS_WIFI_STATE
+url::http://www.aedesign.cn
+intent::android.intent.category.LAUNCHER
+call::getSystemService

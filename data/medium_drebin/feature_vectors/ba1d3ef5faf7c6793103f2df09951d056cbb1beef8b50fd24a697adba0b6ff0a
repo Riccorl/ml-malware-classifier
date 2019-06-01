@@ -1,0 +1,14 @@
+activity::.TPActivity
+activity::.EiCashMainActivity
+intent::android.intent.action.MAIN
+feature::android.hardware.touchscreen
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.EiCashTotalActivity
+activity::.EicashActivity
+activity::.EiCashHimokuActivity
+activity::.PreferenceMain
+call::Read/Write External Storage
+activity::EiCash Add account
+activity::.EiCashCalcActivity
+activity::.EiCashListActivity
+intent::android.intent.category.LAUNCHER

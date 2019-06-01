@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+url::www.onefilesoft.com
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+real_permission::android.permission.INTERNET
+activity::.HelloWorld
+intent::android.intent.category.LAUNCHER
+url::http://www.onefilesoft.com/?rpt%3DtoPercentageMobile

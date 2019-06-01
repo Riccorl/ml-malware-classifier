@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+api_call::android/app/Activity;->startActivity
+intent::android.intent.action.MAIN
+url::http://eyes-free.googlecode.com/svn/trunk/thirdparty/espeak-data.zip
+permission::android.permission.CALL_PHONE
+call::printStackTrace
+feature::android.hardware.screen.portrait
+url::eyes-free.googlecode.com
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+call::getPackageInfo
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->openConnection
+activity::.emMain

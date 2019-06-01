@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.AppEntry
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.WAKE_LOCK
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::SpaceshipZapZap
+call::getPackageInfo

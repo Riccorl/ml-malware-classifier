@@ -1,0 +1,4 @@
+feature::android.hardware.touchscreen
+feature::android.software.live_wallpaper
+call::getSystemService
+permission::com.android.vending.CHECK_LICENSE

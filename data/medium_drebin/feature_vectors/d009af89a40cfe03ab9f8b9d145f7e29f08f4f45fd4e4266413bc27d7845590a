@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.KaetaRank
+intent::android.intent.action.MAIN
+url::http://ms.kaeta.jp/stock
+url::ms.kaeta.jp
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

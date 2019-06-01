@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+activity::.activity.HistoryListActivity
+activity::.MainActivity
+activity::.activity.HistoryContentActivity
+activity::.activity.ViewImagesActivity
+feature::android.hardware.screen.portrait
+activity::.activity.HelpActivity
+intent::android.intent.category.LAUNCHER
+activity::.activity.MainActivity
+activity::.activity.AboutActivity
+call::getPackageInfo
+call::getSystemService

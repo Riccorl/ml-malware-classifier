@@ -1,0 +1,13 @@
+feature::android.hardware.touchscreen
+url::market.android.com
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+api_call::java/lang/Runtime;->exec
+real_permission::android.permission.READ_LOGS
+activity::.MainActivity
+call::Read/Write External Storage
+call::Execution of external commands
+intent::android.intent.category.LAUNCHER
+url::https://market.android.com/details?id%3DHelpMe2HelpYou.mainPackage
+api_call::android/content/Context;->startActivity
+service_receiver::HelpRequestReceiver

@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::www.brillig.com
+call::printStackTrace
+url::http://www.brillig.com/debt_clock/debtiv.gif
+permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+activity::.USDebtClock
+real_permission::android.permission.INTERNET
+api_call::java/net/URL;->getContent

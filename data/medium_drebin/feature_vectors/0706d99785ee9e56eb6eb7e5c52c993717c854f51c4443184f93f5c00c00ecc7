@@ -1,0 +1,27 @@
+url::m.facebook.com
+feature::android.hardware.touchscreen
+call::printStackTrace
+activity::com.gianormousgames.towerraidersgold.Entry.Credits
+call::Read/Write External Storage
+url::towerraiders2.freeforums.org
+call::getPackageInfo
+real_permission::android.permission.WAKE_LOCK
+activity::com.gianormousgames.towerraidersgold.Entry.TowerEntry
+service_receiver::com.gianormousgames.towerraidersgold.Entry.MenuMusicService
+api_call::android/media/MediaPlayer;->start
+url::http://m.facebook.com/TowerRaiders
+call::getSystemService
+activity::com.gianormousgames.towerraidersgold.Entry.RewardBrowser
+feature::android.hardware.screen.landscape
+activity::com.gianormousgames.towerraidersgold.Entry.LevelSelect
+url::http://towerraiders2.freeforums.org/
+permission::android.permission.WAKE_LOCK
+activity::com.gianormousgames.towerraidersgold.Game.TowerGame
+activity::com.gianormousgames.towerraidersgold.Entry.FeatBrowser
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::com.gianormousgames.towerraidersgold.Entry.BonusSelect
+activity::.TowerEntry
+intent::android.intent.category.LAUNCHER
+activity::com.gianormousgames.towerraidersgold.Entry.LevelConfirm
+activity::com.gianormousgames.towerraidersgold.Entry.OptionsActivity

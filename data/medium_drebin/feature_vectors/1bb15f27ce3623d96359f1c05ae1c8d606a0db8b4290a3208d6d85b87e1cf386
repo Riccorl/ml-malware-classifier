@@ -1,0 +1,19 @@
+feature::android.hardware.touchscreen
+real_permission::android.permission.READ_LOGS
+service_receiver::.LogCatWidget
+intent::android.intent.action.MAIN
+permission::android.permission.READ_LOGS
+permission::android.permission.ACCESS_NETWORK_STATE
+api_call::java/lang/Runtime;->exec
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.INTERNET
+api_call::java/net/Socket
+feature::android.hardware.screen.portrait
+call::Execution of external commands
+activity::.LogCatView
+call::printStackTrace
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+provider::android.appwidget.provider
+call::getSystemService
+permission::android.permission.READ_EXTERNAL_STORAGE

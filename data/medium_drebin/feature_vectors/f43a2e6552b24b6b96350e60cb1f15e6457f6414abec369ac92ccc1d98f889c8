@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+service_receiver::.AppSameService
+service_receiver::.AppReceiver
+intent::android.intent.action.MAIN
+activity::.AppManage
+intent::android.intent.action.CREATE_SHORTCUT
+intent::android.intent.action.DELETE
+intent::android.intent.category.DEFAULT
+permission::android.permission.GET_PACKAGE_SIZE
+intent::android.intent.category.LAUNCHER
+permission::com.android.launcher.permission.INSTALL_SHORTCUT
+permission::com.android.permission.BROADCAST_PACKAGE_REMOVED
+call::getPackageInfo
+activity::.AppReceiver
+call::Read/Write External Storage
+call::getSystemService

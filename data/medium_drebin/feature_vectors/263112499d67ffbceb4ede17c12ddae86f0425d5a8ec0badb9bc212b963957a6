@@ -1,0 +1,13 @@
+activity::.Calculation
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+activity::.About
+api_call::android/webkit/WebView
+activity::.Main
+activity::.Settings
+intent::android.intent.category.LAUNCHER
+activity::.Calculationb
+real_permission::android.permission.INTERNET
+activity::.Documentation
+feature::android.hardware.screen.portrait
+call::getSystemService

@@ -1,0 +1,16 @@
+feature::android.hardware.touchscreen
+api_call::org/apache/http/impl/client/DefaultHttpClient
+intent::android.intent.action.MAIN
+call::printStackTrace
+permission::android.permission.RESTART_PACKAGES
+real_permission::android.permission.ACCESS_NETWORK_STATE
+api_call::android/app/ActivityManager;->restartPackage
+permission::android.permission.INTERNET
+activity::.StartActivity
+feature::android.hardware.screen.portrait
+api_call::android/net/ConnectivityManager;->getNetworkInfo
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+real_permission::android.permission.INTERNET
+real_permission::android.permission.RESTART_PACKAGES
+call::getSystemService

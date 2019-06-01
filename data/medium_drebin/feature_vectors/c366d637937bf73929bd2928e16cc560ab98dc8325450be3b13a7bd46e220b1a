@@ -1,0 +1,25 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+url::http://www.miniy.net/
+permission::android.permission.INTERNET
+call::Read/Write External Storage
+call::Cipher(DES/ECB/NOPADDING)
+call::getPackageInfo
+api_call::android/app/Activity;->setContentView
+real_permission::android.permission.INTERNET
+real_permission::android.permission.WAKE_LOCK
+real_permission::android.permission.CAMERA
+activity::.MainActivity
+real_permission::android.permission.VIBRATE
+call::getSystemService
+url::www.miniy.net
+api_call::android/os/PowerManager$WakeLock;->acquire
+call::Cipher(DES/ECB/PKCS5Padding)
+call::Obfuscation(Base64)
+url::http://www.miniy.net/?android
+api_call::android/hardware/Camera;->open
+api_call::android/app/Activity;->startActivity
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

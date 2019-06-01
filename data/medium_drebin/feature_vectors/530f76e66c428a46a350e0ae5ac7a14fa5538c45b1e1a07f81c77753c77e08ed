@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+call::getDeviceId
+intent::android.intent.action.MAIN
+activity::cn.com.ldci.madc.SoccerBubble.ui.activity.SoccerBubbleActivity
+intent::android.intent.category.LAUNCHER
+activity::cn.com.ldci.madc.SoccerBubble.ui.activity.SettingActivity
+activity::.activity
+activity::.SoccerBubbleActivity
+call::getSystemService

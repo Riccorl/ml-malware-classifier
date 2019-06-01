@@ -1,0 +1,12 @@
+feature::android.hardware.touchscreen
+activity::Shush!
+api_call::android/app/NotificationManager;->notify
+intent::android.intent.action.MAIN
+activity::.Welcome
+api_call::android/content/Context;->startActivity
+service_receiver::.OnRingerMuted
+service_receiver::.TurnRingerOn
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.VIBRATE
+call::getSystemService

@@ -1,0 +1,14 @@
+feature::android.hardware.touchscreen
+url::http://mobile.huskieball.com/schedule
+intent::android.intent.action.MAIN
+api_call::android/webkit/WebView
+activity::.Main
+url::mobile.huskieball.com
+url::http://mobile.huskieball.com/about
+permission::android.permission.INTERNET
+url::http://mobile.huskieball.com/stats
+activity::Huskie Ball
+intent::android.intent.category.LAUNCHER
+url::http://mobile.huskieball.com
+real_permission::android.permission.INTERNET
+url::http://mobile.huskieball.com/roster

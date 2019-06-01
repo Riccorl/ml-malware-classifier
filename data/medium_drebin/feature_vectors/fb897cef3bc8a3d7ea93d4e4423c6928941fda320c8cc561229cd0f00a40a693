@@ -1,0 +1,10 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+call::printStackTrace
+call::Cipher(AES)
+api_call::android/media/MediaPlayer;->start
+activity::.MainActivity
+activity::.myListView
+intent::android.intent.category.LAUNCHER
+call::getSystemService
+real_permission::android.permission.WAKE_LOCK

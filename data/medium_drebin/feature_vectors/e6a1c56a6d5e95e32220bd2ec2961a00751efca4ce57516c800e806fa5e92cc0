@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+activity::.SiteTalkMail
+intent::android.intent.action.MAIN
+call::Obfuscation(Base64)
+intent::android.intent.category.LAUNCHER
+url::http://www.sitetalkmail.com/site.php/applogin/index/
+url::www.sitetalkmail.com
+activity::com.example.SiteTalkMail.SiteTalkMail

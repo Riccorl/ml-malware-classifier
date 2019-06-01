@@ -1,0 +1,8 @@
+feature::android.hardware.touchscreen
+api_call::android/content/Context;->startService
+intent::android.intent.action.MAIN
+activity::com.tournesol.nextsong.NextSongPreferenceActivity
+intent::android.intent.category.LAUNCHER
+activity::.NextSongActivity
+call::getSystemService
+activity::com.tournesol.nextsong.NextSongActivity

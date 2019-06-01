@@ -1,0 +1,23 @@
+feature::android.hardware.touchscreen
+activity::.ExportActivity
+call::Cipher(pad block corrupted)
+call::Read/Write External Storage
+call::getPackageInfo
+activity::.EditParametersActivity
+activity::.CryptnosMainMenu
+feature::android.hardware.faketouch
+activity::.HelpActivity
+activity::.SiteListActivity
+call::getSystemService
+call::Obfuscation(Base64)
+activity::.AboutActivity
+call::Cipher(PBEWITHSHA-256AND256BITAES-CBC-BC)
+url::www.cryptnos.com
+activity::.GenerateExistingActivity
+url::http://www.cryptnos.com/\
+intent::android.intent.action.MAIN
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+activity::.HelpMenuActivity
+intent::android.intent.category.LAUNCHER
+activity::.ImportActivity
+activity::.AdvancedSettingsActivity

@@ -1,0 +1,5 @@
+feature::android.hardware.touchscreen
+intent::android.intent.category.INFO
+intent::android.intent.action.MAIN
+activity::com.urbandroid.dock.full.key.MainActivity
+intent::android.intent.category.DEFAULT

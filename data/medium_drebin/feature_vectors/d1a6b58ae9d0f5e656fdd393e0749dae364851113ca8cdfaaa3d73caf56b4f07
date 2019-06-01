@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+activity::.TweetPhotoSlide
+url::twitpic.com
+url::twitpic\\.com
+intent::android.intent.action.MAIN
+url::http://search.twitter.com/search.atom
+api_call::java/net/URL;->getContent
+permission::android.permission.INTERNET
+url::search.twitter.com
+feature::android.hardware.screen.portrait
+url::http://twitpic.com/
+intent::android.intent.category.LAUNCHER
+real_permission::android.permission.INTERNET
+url::http://twitpic\\.com/)
+url::http://twitpic.com/show/large/

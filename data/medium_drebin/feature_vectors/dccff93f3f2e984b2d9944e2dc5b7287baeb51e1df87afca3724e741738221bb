@@ -1,0 +1,22 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+service_receiver::.MPService
+call::Read/Write External Storage
+url::http://www.id3.org/dummy/ufid.html
+activity::.Setting
+call::getPackageInfo
+real_permission::android.permission.READ_CONTACTS
+activity::.player
+real_permission::android.permission.WAKE_LOCK
+api_call::android/content/ContentResolver;->query
+url::www.id3.org
+api_call::android/media/MediaPlayer;->start
+call::getSystemService
+url::musicbrainz.org
+activity::.browser
+activity::.AppInitializing
+call::Obfuscation(Base64)
+url::http://musicbrainz.org
+intent::android.intent.action.MAIN
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER

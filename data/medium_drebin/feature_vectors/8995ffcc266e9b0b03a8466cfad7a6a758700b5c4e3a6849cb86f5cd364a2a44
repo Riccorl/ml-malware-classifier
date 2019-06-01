@@ -1,0 +1,9 @@
+feature::android.hardware.touchscreen
+activity::.NCLweb
+intent::android.intent.action.MAIN
+url::www.northcountyleader.ie
+url::http://www.northcountyleader.ie
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+intent::android.intent.category.LAUNCHER
+api_call::android/webkit/WebView

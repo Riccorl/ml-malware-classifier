@@ -1,0 +1,50 @@
+feature::android.hardware.touchscreen
+url::www.elecont.com
+api_call::org/apache/http/impl/client/DefaultHttpClient
+permission::android.permission.READ_PHONE_STATE
+api_call::android/os/Vibrator;->vibrate
+service_receiver::Elecont Weather Clock 2x2
+permission::android.permission.INTERNET
+real_permission::android.permission.ACCESS_FINE_LOCATION
+service_receiver::Elecont Weather Clock 3x4
+service_receiver::Elecont Weather Clock 3x3
+service_receiver::.ElecontWeatherUpdateService
+call::getPackageInfo
+service_receiver::Elecont Weather Clock 4x3
+service_receiver::Elecont Weather Clock 4x4
+service_receiver::Elecont Weather Today 1x1
+feature::android.hardware.location.gps
+url::http://www.elecont.net/wsi/wsiservices.aspx?
+url::http://elecont.net/wsi/wsiservices.aspx?url%3Dlocfind&lat%3D
+permission::android.permission.ACCESS_COARSE_LOCATION
+url::http://elecont.com/services.aspx?url%3Dlocfind&lat%3D
+feature::android.hardware.location
+service_receiver::Elecont Moon phase 1x1
+url::elecont.net
+call::getSystemService
+permission::android.permission.VIBRATE
+api_call::android/net/ConnectivityManager;->getActiveNetworkInfo
+real_permission::android.permission.VIBRATE
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::com.android.vending.CHECK_LICENSE
+call::Obfuscation(Base64)
+real_permission::android.permission.ACCESS_NETWORK_STATE
+service_receiver::Elecont Weather Tomorrow 1x1
+service_receiver::Elecont Barometer 1x1
+call::Cipher(AES/CBC/PKCS5Padding)
+url::http://www.elecont.com/services.aspx?
+url::www.elecont.net
+service_receiver::Elecont Current Conditions 1x1
+url::http://xoap.weather.com/weather/local/
+url::http://www.elecont.com/mobilebuy.aspx?sysid%3D
+intent::android.intent.action.MAIN
+provider::android.appwidget.provider
+url::xoap.weather.com
+real_permission::android.permission.INTERNET
+feature::android.hardware.location.network
+api_call::android/location/LocationManager;->getLastKnownLocation
+intent::android.intent.category.LAUNCHER
+permission::android.permission.ACCESS_NETWORK_STATE
+activity::.ElecontWeatherClockActivity
+url::elecont.com
+api_call::android/content/Context;->startService

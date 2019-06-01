@@ -1,0 +1,15 @@
+feature::android.hardware.touchscreen
+intent::android.intent.action.MAIN
+url::http://tateredout.blogspot.com
+call::printStackTrace
+permission::android.permission.SEND_SMS
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.INTERNET
+real_permission::android.permission.INTERNET
+feature::android.hardware.telephony
+intent::android.intent.category.LAUNCHER
+activity::.spud
+real_permission::android.permission.WAKE_LOCK
+api_call::java/net/Socket
+api_call::android/media/MediaPlayer;->start
+url::tateredout.blogspot.com

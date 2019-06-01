@@ -1,0 +1,26 @@
+feature::android.hardware.touchscreen
+call::printStackTrace
+permission::android.permission.READ_PHONE_STATE
+call::Read/Write External Storage
+activity::spol.Interrupt_trial.NoiseMonitorActivity
+feature::android.hardware.microphone
+api_call::android/app/backup/BackupManager;->dataChanged
+permission::android.permission.RECORD_AUDIO
+activity::.NoiseMonitorActivity
+api_call::android/content/Context;->startActivity
+intent::android.intent.category.DEFAULT
+real_permission::android.permission.VIBRATE
+real_permission::android.permission.BACKUP
+call::getSystemService
+api_call::android/telephony/TelephonyManager;->listen
+real_permission::android.permission.RECORD_AUDIO
+call::Obfuscation(Base64)
+call::Cipher(AES)
+real_permission::android.permission.READ_PHONE_STATE
+api_call::android/media/AudioRecord
+intent::android.intent.action.MAIN
+api_call::android/app/NotificationManager;->notify
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+service_receiver::spol.Interrupt_trial.NoiseMonitorService
+feature::android.hardware.screen.portrait
+intent::android.intent.category.LAUNCHER
